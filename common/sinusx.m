@@ -2,15 +2,10 @@ function outx = sinusx(in,f,n)
 %
 % Extraction of a sinusoidal signal
 %
-sinx=sin(2*pi*f*[1:n]);
-cosx=cos(2*pi*f*[1:n]);
+x = 1:n;
+sinx=sin(2*pi*f.*x);
+cosx=cos(2*pi*f.*x);
 in=in(1:n);
-
-s = size(in);
-if s(1) == n
-    in = in';
-end
-
 a1=2*sinx.*in;
 a=sum(a1)/n;
 b1=2*cosx.*in;
