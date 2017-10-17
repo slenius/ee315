@@ -1,4 +1,4 @@
-% ee315 fall 2017
+h% ee315 fall 2017
 % homework 2 dac problem starter file
 clear all;
 

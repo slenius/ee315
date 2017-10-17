@@ -4,7 +4,7 @@ clear all;
 close all;
 
 N = 2^12;
-%X = 0.8;
+%X = ones(N,1) .* 0.8;
 samp = 1:N;
 cycles = 50;
 X = 0.5*sin(cycles*2*pi*samp./(N));
@@ -53,7 +53,7 @@ s_dbfs = 20*log10(s);
 
 figure(2);
 f = (1:N/2) ./ (N/2);
-semilogx(f, s_dbfs, '-')
+semilogx(f, s_dbfs)
 title('HW2 P2c');
 ylabel('dBFS');
 xlabel('Normalized Frequency')
