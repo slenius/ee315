@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: cds2svg.il  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
+[
+<!ENTITY INST_R0 "
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#CC0000' xml:space='preserve' text-anchor='start' transform='translate(9375,5000) rotate(0) scale(1,1) translate(0,-0) '>
+R0
+</text>
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#000000' xml:space='preserve' text-anchor='start' transform='translate(9375,15000) rotate(0) scale(1,1) translate(0,-0) '>
+500K
+</text>
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,37500 0,30000 -6250,28125 6250,24375 -6250,20625 6250,16875 -6250,13125 6250,9375 0,7500 0,-0 ' />
+<rect stroke='none' fill='none' stroke-width='1250' x='-12500' y='-0' width='25000' height='37500' />
+<polygon stroke='#FF0000' fill='#FF0000' stroke-width='2500' points='-2500,-2500 2500,-2500 2500,2500 -2500,2500 ' />
+<polygon stroke='#FF0000' fill='#FF0000' stroke-width='2500' points='-2500,35000 2500,35000 2500,40000 -2500,40000 ' />
+">
+<!ENTITY INST_C0 "
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#000000' xml:space='preserve' text-anchor='start' transform='translate(9375,15000) rotate(0) scale(1,1) translate(0,-0) '>
+10p
+</text>
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='6250,13750 -6250,13750 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,-0 0,13750 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,17500 0,37500 ' />
+<path stroke='#006600' fill='none' stroke-width='2500' d='M6250,20126 A8750,8750 0 0,0 -6187,20063 ' />
+<rect stroke='none' fill='none' stroke-width='1250' x='-12500' y='-0' width='25000' height='37500' />
+<polygon stroke='#FF0000' fill='#FF0000' stroke-width='2500' points='-2500,-2500 2500,-2500 2500,2500 -2500,2500 ' />
+<polygon stroke='#FF0000' fill='#FF0000' stroke-width='2500' points='-2500,35000 2500,35000 2500,40000 -2500,40000 ' />
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#CC0000' xml:space='preserve' text-anchor='start' transform='translate(9375,5000) rotate(0) scale(1,1) translate(0,-0) '>
+C0
+</text>
+">
+<!ENTITY INST_I0 "
+<polygon stroke='#006600' fill='none' stroke-width='2500' points='-6250,18750 6250,18750 0,25000 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,-0 0,18750 ' />
+<rect stroke='none' fill='none' stroke-width='1250' x='-6250' y='-0' width='12500' height='25000' />
+<rect stroke='#FF0000' fill='#FF0000' stroke-width='2500' x='-2500' y='-2500' width='5000' height='5000' />
+">
+<!ENTITY INST_V0 "
+<rect stroke='none' fill='none' stroke-width='1250' x='-12500' y='-0' width='25000' height='37500' />
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#CC0000' xml:space='preserve' text-anchor='start' transform='translate(9375,6250) rotate(0) scale(1,1) translate(0,-0) '>
+V0
+</text>
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#000000' xml:space='preserve' text-anchor='start' transform='translate(9375,28125) rotate(0) scale(1,1) translate(0,-0) '>
+acm:1V
+</text>
+<text x='0' y='0' font-family='Helvetica' font-size='7500' font-weight='bold' fill='#000000' xml:space='preserve' text-anchor='start' transform='translate(9375,21875) rotate(0) scale(1,1) translate(0,-0) '>
+vdc:vdc
+</text>
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,17500 0,13750 ' />
+<ellipse stroke='#006600' fill='none' stroke-width='2500' cx='0' cy='18750' rx='6875' ry='6250' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='1875,15625 -1875,15625 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,12500 0,-0 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='0,25000 0,37500 ' />
+<polyline stroke='#006600' fill='none' stroke-width='2500' points='1875,21875 -1875,21875 ' />
+<rect stroke='#FF0000' fill='#FF0000' stroke-width='2500' x='-2500' y='35000' width='5000' height='5000' />
+<rect stroke='#FF0000' fill='#FF0000' stroke-width='2500' x='-2500' y='-2500' width='5000' height='5000' />
+">
+]>
+<svg viewBox="-326250 -173125 299375 160625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect stroke="#FFFFCC" fill="#FFFFCC" stroke-width="1" x="-326250" y="-173125" width="299375" height="160625" />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-250000,-75000 -250000,-100000 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-250000,-100000 -200000,-100000 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-162500,-100000 -100000,-100000 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-100000,-37500 -100000,-62500 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-250000,-31250 -187500,-31250 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-187500,-31250 -187500,-37500 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-187500,-37500 -100000,-37500 " />
+<polyline stroke="#0066FF" fill="#0066FF" stroke-width="2500" points="-250000,-31250 -250000,-37500 " />
+<text x="0" y="0" font-family="Helvetica" font-size="9375" font-weight="bold" fill="#0066FF" xml:space="preserve" text-anchor="middle" transform="translate(-237500,-104375) rotate(0) scale(1,1) translate(0,-0) ">
+in
+</text>
+<text x="0" y="0" font-family="Helvetica" font-size="9375" font-weight="bold" fill="#0066FF" xml:space="preserve" text-anchor="middle" transform="translate(-125000,-104375) rotate(0) scale(1,1) translate(0,-0) ">
+out
+</text>
+<g transform="translate(-200000,-100000) rotate(-90) scale(1,1) ">
+&INST_R0;
+</g>
+<g transform="translate(-100000,-100000) rotate(0) scale(1,1) ">
+&INST_C0;
+</g>
+<g transform="translate(-100000,-37500) rotate(0) scale(1,1) ">
+&INST_I0;
+</g>
+<g transform="translate(-250000,-75000) rotate(0) scale(1,1) ">
+&INST_V0;
+</g>
+</svg>

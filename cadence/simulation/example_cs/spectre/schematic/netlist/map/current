@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "example_cs"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/example_cs/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "ee315/example_cs/schematic" "example_cs" )
+ )
+( term
+ )
+( param
+ )
+( "example_cs" "ihnl/cds0/map" )
+ )

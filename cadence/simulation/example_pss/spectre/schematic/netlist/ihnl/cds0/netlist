@@ -1,0 +1,9 @@
+
+// Library name: ee315_wrk
+// Cell name: example_pss
+// View name: schematic
+V1 (clk 0) vsource type=pulse val0=0 val1=1 period=Ts delay=Ts/2
+V0 (in 0) vsource pacmag=1 type=dc
+I2 (in net7 clk 0) relay vt1=499m vt2=501m ropen=1T rclosed=1m
+R0 (net7 out) resistor r=(Ts/2)/(N*Cl)
+C0 (out 0) capacitor c=Cl

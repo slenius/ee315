@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"design" "(\"example\" \"rc_lpf\" \"schematic\" \"\")"
+"simulator" "spectre"
+"temperature" "27"
+"host" ""
+"date" "Oct  5 21:18:49 2017"
+"title" ""
+"analysisList" "()"
+END

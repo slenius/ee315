@@ -1,0 +1,180 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.260.isr16 64bit -- 26 Oct 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lenius   Host: corn20.stanford.edu   HostID: 43AB55D8   PID: 17719
+Memory  available: 3.8406 GB  physical: 33.7389 GB
+CPU Type: Quad-Core AMD Opteron(tm) Processor 2384
+          Processor PhysicalID CoreID Frequency
+              0         0        0     1500.0
+              1         0        1     800.0
+              2         0        2     2700.0
+              3         0        3     800.0
+              4         1        0     2700.0
+              5         1        1     2700.0
+              6         1        2     2700.0
+              7         1        3     800.0
+
+
+Simulating `input.scs' on corn20.stanford.edu at 11:13:54 PM, Tue Oct 17, 2017 (process id: 17719).
+Command line:
+     \
+        /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/spectre/bin/64bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre0_17205_10 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 17719
+
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 136.441 ms, elapsed = 141.221 ms.
+Time accumulated: CPU = 136.441 ms, elapsed = 141.221 ms.
+Peak resident memory used = 37.9 Mbytes.
+
+
+Time for Elaboration: CPU = 26.295 ms, elapsed = 26.4242 ms.
+Time accumulated: CPU = 162.857 ms, elapsed = 167.841 ms.
+Peak resident memory used = 41.7 Mbytes.
+
+
+Time for EDB Visiting: CPU = 439 us, elapsed = 440.121 us.
+Time accumulated: CPU = 163.515 ms, elapsed = 168.499 ms.
+Peak resident memory used = 41.9 Mbytes.
+
+
+Circuit inventory:
+              nodes 3
+            bsim3v3 2     
+            vsource 2     
+
+
+Time for parsing: CPU = 6.941 ms, elapsed = 10.0639 ms.
+Time accumulated: CPU = 170.602 ms, elapsed = 178.709 ms.
+Peak resident memory used = 42.6 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre0_17205_10, ).
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+
+DC Operating Point:
+    V(in) = 0 V
+    V(out) = 85.0819 pV
+    I(V0:p) = -3.6 pA
+    I(V1:p) = 3.6 pA
+    V(vdd!) = 1.8 V
+
+Convergence achieved in 2 iterations.
+Total time required for dc analysis `dcOp': CPU = 6.36 ms, elapsed = 9.93705 ms.
+Time accumulated: CPU = 182.309 ms, elapsed = 1.47243 s.
+Peak resident memory used = 43.3 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+**********************************
+DC Analysis `dc': vin = (0 -> 1.8)
+**********************************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    dc: vin = 72e-03         (4 %), step = 36e-03          (2 %)
+    dc: vin = 108e-03        (6 %), step = 36e-03          (2 %)
+    dc: vin = 144e-03        (8 %), step = 36e-03          (2 %)
+    dc: vin = 180e-03       (10 %), step = 36e-03          (2 %)
+    dc: vin = 216e-03       (12 %), step = 36e-03          (2 %)
+    dc: vin = 252e-03       (14 %), step = 36e-03          (2 %)
+    dc: vin = 288e-03       (16 %), step = 36e-03          (2 %)
+    dc: vin = 324e-03       (18 %), step = 36e-03          (2 %)
+    dc: vin = 360e-03       (20 %), step = 36e-03          (2 %)
+    dc: vin = 396e-03       (22 %), step = 36e-03          (2 %)
+    dc: vin = 432e-03       (24 %), step = 36e-03          (2 %)
+    dc: vin = 468e-03       (26 %), step = 36e-03          (2 %)
+    dc: vin = 504e-03       (28 %), step = 36e-03          (2 %)
+    dc: vin = 540e-03       (30 %), step = 36e-03          (2 %)
+    dc: vin = 576e-03       (32 %), step = 36e-03          (2 %)
+    dc: vin = 612e-03       (34 %), step = 36e-03          (2 %)
+    dc: vin = 648e-03       (36 %), step = 36e-03          (2 %)
+    dc: vin = 684e-03       (38 %), step = 36e-03          (2 %)
+    dc: vin = 720e-03       (40 %), step = 36e-03          (2 %)
+    dc: vin = 756e-03       (42 %), step = 36e-03          (2 %)
+    dc: vin = 792e-03       (44 %), step = 36e-03          (2 %)
+    dc: vin = 828e-03       (46 %), step = 36e-03          (2 %)
+    dc: vin = 864e-03       (48 %), step = 36e-03          (2 %)
+    dc: vin = 900e-03       (50 %), step = 36e-03          (2 %)
+    dc: vin = 936e-03       (52 %), step = 36e-03          (2 %)
+    dc: vin = 972e-03       (54 %), step = 36e-03          (2 %)
+    dc: vin = 1.008         (56 %), step = 36e-03          (2 %)
+    dc: vin = 1.044         (58 %), step = 36e-03          (2 %)
+    dc: vin = 1.08          (60 %), step = 36e-03          (2 %)
+    dc: vin = 1.116         (62 %), step = 36e-03          (2 %)
+    dc: vin = 1.152         (64 %), step = 36e-03          (2 %)
+    dc: vin = 1.188         (66 %), step = 36e-03          (2 %)
+    dc: vin = 1.224         (68 %), step = 36e-03          (2 %)
+    dc: vin = 1.26          (70 %), step = 36e-03          (2 %)
+    dc: vin = 1.296         (72 %), step = 36e-03          (2 %)
+    dc: vin = 1.332         (74 %), step = 36e-03          (2 %)
+    dc: vin = 1.368         (76 %), step = 36e-03          (2 %)
+    dc: vin = 1.404         (78 %), step = 36e-03          (2 %)
+    dc: vin = 1.44          (80 %), step = 36e-03          (2 %)
+    dc: vin = 1.476         (82 %), step = 36e-03          (2 %)
+    dc: vin = 1.512         (84 %), step = 36e-03          (2 %)
+    dc: vin = 1.548         (86 %), step = 36e-03          (2 %)
+    dc: vin = 1.584         (88 %), step = 36e-03          (2 %)
+    dc: vin = 1.62          (90 %), step = 36e-03          (2 %)
+    dc: vin = 1.656         (92 %), step = 36e-03          (2 %)
+    dc: vin = 1.692         (94 %), step = 36e-03          (2 %)
+    dc: vin = 1.728         (96 %), step = 36e-03          (2 %)
+    dc: vin = 1.764         (98 %), step = 36e-03          (2 %)
+    dc: vin = 1.8          (100 %), step = 36e-03          (2 %)
+
+DC Operating Point:
+    V(in) = 1.8 V
+    V(out) = 1.8 V
+    I(V0:p) = -85.9333e-24 A
+    I(V1:p) = -3.6 pA
+    V(vdd!) = 1.8 V
+
+Total time required for dc analysis `dc': CPU = 30.262 ms, elapsed = 31.239 ms.
+Time accumulated: CPU = 221.992 ms, elapsed = 1.52474 s.
+Peak resident memory used = 43.7 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (11:49:55 PM, Tue Oct 17, 2017):
+Time used: CPU = 350 ms, elapsed = 2.16 ks (36m  1.5s), util. = 16.2e-03%.
+Time spent in licensing: elapsed = 69.8 ms.
+Peak memory used = 43.7 Mbytes.
+Simulation started at: 11:13:54 PM, Tue Oct 17, 2017, ended at: 11:49:55 PM, Tue Oct 17, 2017, with elapsed time (wall clock): 2.16 ks (36m  1.5s).
+spectre completes with 0 errors, 0 warnings, and 0 notices.

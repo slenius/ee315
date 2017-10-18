@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "p3"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/p3/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "hw3_p3/p3/schematic" "p3" )
+ )
+( term
+ )
+( param
+ )
+( "p3" "ihnl/cds0/map" )
+ )

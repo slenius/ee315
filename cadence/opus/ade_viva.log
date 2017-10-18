@@ -1,0 +1,67 @@
+DEBUG SkillExprHandler ... trace listening on
+java.lang.NullPointerException
+	at COM.cadence.awd.graph.Graph.getDepAxisCount(Graph.java:13589)
+	at COM.cadence.awd.graph.GraphMediator.getComputedFontSize(GraphMediator.java:3363)
+	at COM.cadence.awd.graph.GraphMediator.getComputedFont(GraphMediator.java:3267)
+	at COM.cadence.awd.graph.GraphMediator.getComputedFont(GraphMediator.java:3227)
+	at COM.cadence.awd.graph.GraphCanvas.computeFrameFont(GraphCanvas.java:3623)
+	at COM.cadence.awd.graph.Graph.getGraphics(Graph.java:18410)
+	at COM.cadence.awd.graph.Graph.doExit(Graph.java:3429)
+	at COM.cadence.awd.graph.GraphCanvas.doExit(GraphCanvas.java:4423)
+	at COM.cadence.awd.graph.GraphMediator.doExit(GraphMediator.java:6256)
+	at COM.cadence.awd.graph.QuitCommand.doquit(QuitCommand.java:99)
+	at COM.cadence.awd.graph.GraphManager.deleteObjects(GraphManager.java:7958)
+	at COM.cadence.awd.command.DeleteObjectCommand.exec(DeleteObjectCommand.java:70)
+	at COM.cadence.awd.command.SwingThreadCommand$1.run(SwingThreadCommand.java:97)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+value=
+val_type=shmem_wave
+data_type=doublecomplex
+value_id=249923337
+semaphore_id=753670
+eval_id=
+value=
+val_type=shmem_wave
+data_type=double
+value_id=249923337
+semaphore_id=753670
+eval_id=
+value=
+val_type=shmem_wave
+data_type=double
+value_id=249923337
+semaphore_id=753670
+eval_id=
+value=
+val_type=shmem_wave
+data_type=double
+value_id=249923337
+semaphore_id=753670
+eval_id=
+value=
+val_type=shmem_wave
+data_type=double
+value_id=249923337
+semaphore_id=753670
+eval_id=
+DEBUG getQtVariables
+DEBUG getQtVariables
+DEBUG getQtVariables
+DEBUG getQtVariables
+DEBUG getQtVariables
+DEBUG getQtVariables
+value=
+val_type=shmem_wave
+data_type=double
+value_id=249923337
+semaphore_id=753670
+eval_id=
+
+Visualization & Analysis Tool exited gracefully

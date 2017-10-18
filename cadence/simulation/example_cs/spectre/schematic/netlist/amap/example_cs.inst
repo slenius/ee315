@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"VDDn" "ee315_vdc_spectre"
+"RLn" "ee315_res_spectre"
+"VINn" "ee315_vsin_spectre"
+"CLn" "ee315_cap_spectre"
+"M1n" "ee315_nmos_spectre"

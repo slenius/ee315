@@ -1,0 +1,34 @@
+// Generated for: spectre
+// Generated on: Oct  5 20:55:38 2017
+// Design library name: ee315
+// Design cell name: example_cs
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+include "/afs/ir.stanford.edu/class/ee315/models/ee315.mod"
+
+// Library name: ee315
+// Cell name: example_cs
+// View name: schematic
+VDD (vdd! 0) vsource dc=1.8 type=dc
+RL (vdd! out) resistor r=2K
+VIN (in 0) vsource dc=700.0m mag=1 phase=0 type=sine sinedc=0 ampl=1 \
+        sinephase=0 freq=1K fundname="fund"
+CL (out 0) capacitor c=1p
+M1 (out in 0 0) nmos w=10u l=0.18u
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 \
+    digits=5 cols=80 pivrel=1e-3 sensfile="../psf/sens.output" \
+    checklimitdest=psf 
+ac ac start=10e3 stop=1e9 annotate=status 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc dev=VIN param=dc start=0 stop=1.8 oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts  where=rawfile
+saveOptions options save=allpub

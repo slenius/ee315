@@ -1,0 +1,10 @@
+
+// Library name: ee315
+// Cell name: example_cs
+// View name: schematic
+VDD (vdd! 0) vsource dc=1.8 type=dc
+RL (vdd! out) resistor r=2K
+VIN (in 0) vsource dc=700.0m mag=1 phase=0 type=sine sinedc=0 ampl=1 \
+        sinephase=0 freq=1K fundname="fund"
+CL (out 0) capacitor c=1p
+M1 (out in 0 0) nmos w=10u l=0.18u

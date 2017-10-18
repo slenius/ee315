@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+ee315/example_cs/schematic example_cs
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+$endparam

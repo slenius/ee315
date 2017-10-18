@@ -1,0 +1,60 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Oct 18 00:34:02 2017"
+"date" "Oct 18 00:34:02 2017"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"tranSST2Data" "TRUE"
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("N")
+)
+"N=1/psf" "runObject" (
+(
+"../N=1/psf/logFile"
+"../N=1/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../N=1"
+ "N" 1.000000e+00
+)
+
+"N=4.6/psf" "runObject" (
+(
+"../N=4.6/psf/logFile"
+"../N=4.6/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../N=4.6"
+ "N" 4.600000e+00
+)
+
+"N=9.2/psf" "runObject" (
+(
+"../N=9.2/psf/logFile"
+"../N=9.2/psf/artistLogFile"
+)
+"Root"
+()
+) PROP(
+"netlistDir" "../netlist"
+"dataDir" "../N=9.2"
+ "N" 9.200000e+00
+)
+
+END

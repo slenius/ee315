@@ -1,0 +1,16 @@
+simulator( 'spectre )
+design(	 "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/rc_lpf/spectre/schematic/netlist/netlist")
+resultsDir( "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/rc_lpf/spectre/schematic" )
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+analysis('ac ?start "1"  ?stop "100G"  )
+desVar(	  "vdc" 1	)
+desVar(	  "V" 0	)
+envOption(
+	'analysisOrder  list("ac") 
+)
+temp( 27 ) 
+run()
+selectResult( 'ac )
+plot(getData("/out") )

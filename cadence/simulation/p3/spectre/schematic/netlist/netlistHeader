@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 17 23:13:51 2017
+// Design library name: hw3_p3
+// Design cell name: p3
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!

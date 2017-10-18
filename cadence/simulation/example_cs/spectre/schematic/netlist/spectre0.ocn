@@ -1,0 +1,15 @@
+simulator( 'spectre )
+design(	 "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/example_cs/spectre/schematic/netlist/netlist")
+resultsDir( "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/example_cs/spectre/schematic" )
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+analysis('dc ?saveOppoint t  ?dev "/VIN"  ?param "dc"  
+		?start "0"  ?stop "1.8"  )
+analysis('ac ?start "10e3"  ?stop "1e9"  )
+envOption(
+	'firstRun  nil 
+	'analysisOrder  list("ac" "dc") 
+)
+temp( 27 ) 
+run()

@@ -1,0 +1,170 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Wed Oct 18 00:34:03 2017"
+"simulator" "spectre"
+"version" "10.1.1.260.isr16"
+"date" "12:34:03 AM, Wed Oct 18, 2017"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"pss-td.pss" "analysisInst" (
+"td.pss"
+"pss.td.pss"
+"PSF"
+""
+("time")
+"Periodic Steady-State Analysis `pss': time = (0 s -> 1 ns)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"pss-fd.pss" "analysisInst" (
+"fd.pss"
+"pss.fd.pss"
+"PSF"
+""
+("freq")
+"Periodic Steady-State Analysis `pss': fund = 1 GHz"
+) PROP(
+"data_type" "swept_scalar"
+"harmonic_type" "fundamental"
+)
+
+"pac-pac_cross" "analysisInst" (
+"pac_cross"
+"pac.pac_cross"
+"PSF"
+""
+("eventtime")
+"threshold sampled pac parent"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"pac_0_sample-pac_cross" "analysisInst" (
+"pac_cross"
+"pac_0_sample.pac_cross"
+"PSF"
+"pac-pac_cross"
+("harmonic")
+"Periodic AC Analysis `pac': freq = (1 kHz -> 2 GHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "sweepNode"
+"eventtime" 1.00000e-12
+)
+
+"pac_0_sample-0.pac_cross" "analysisInst" (
+"pac_cross"
+"pac_0_sample.0.pac_cross"
+"PSF"
+"pac_0_sample-pac_cross"
+("freq")
+"Periodic AC Analysis `pac': freq = (1 kHz -> 2 GHz)"
+) PROP(
+"data_type" "swept_scalar"
+"sweep_tree_type" "leafNode"
+"harmonic" 0.00000
+)
+
+"pac-pac" "analysisInst" (
+"pac"
+"pac.pac"
+"PSF"
+""
+("harmonic")
+"pac parent"
+) PROP(
+"sweep_tree_type" "sweepNode"
+"data_type" "swept_scalar"
+"harmonic_type" "fundamental_sweep"
+)
+
+"pac-0.pac" "analysisInst" (
+"pac"
+"pac.0.pac"
+"PSF"
+"pac-pac"
+("freq")
+"Periodic AC Analysis `pac': freq = (1 kHz -> 2 GHz)"
+) PROP(
+"data_type" "swept_scalar"
+"harmonic_type" "fundamental_sweep"
+"sweep_tree_type" "leafNode"
+"harmonic" 0.00000
+)
+
+"modelParameter-info" "analysisInst" (
+"info"
+"modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"element-info" "analysisInst" (
+"info"
+"element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"outputParameter-info" "analysisInst" (
+"info"
+"outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"designParamVals-info" "analysisInst" (
+"info"
+"designParamVals.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"primitives.info.primitives"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"subckts.info.subckts"
+"PSF"
+""
+()
+"Circuit Information"
+)
+END

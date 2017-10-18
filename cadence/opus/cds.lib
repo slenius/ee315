@@ -1,0 +1,7 @@
+# EE315 cds.lib
+DEFINE basic $CDS_INST_DIR/tools/dfII/etc/cdslib/basic
+DEFINE ee315 $EE315_HOME/opus/ee315
+
+DEFINE hw3_p3 /afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/hw3_p3
+#Removed by ddDeleteObj: DEFINE hw3_p5 /afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/hw3_p5
+DEFINE ee315_wrk /afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/ee315_wrk

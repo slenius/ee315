@@ -1,0 +1,11 @@
+CADENCE IHNL01070
+$model
+hw3_p3/p3/schematic p3
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+vin vin
+$endparam

@@ -1,0 +1,141 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.260.isr16 64bit -- 26 Oct 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lenius   Host: corn17.stanford.edu   HostID: 43AB52D8   PID: 29388
+Memory  available: 9.8545 GB  physical: 33.7389 GB
+CPU Type: Quad-Core AMD Opteron(tm) Processor 2384
+          Processor PhysicalID CoreID Frequency
+              0         0        0     2000.0
+              1         0        1     2000.0
+              2         0        2     1500.0
+              3         0        3     2700.0
+              4         1        0     2700.0
+              5         1        1     1500.0
+              6         1        2     2000.0
+              7         1        3     2000.0
+
+
+Simulating `input.scs' on corn17.stanford.edu at 9:18:50 PM, Thur Oct 5, 2017 (process id: 29388).
+Command line:
+     \
+        /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/spectre/bin/64bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre1_24035_2 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 29388
+
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 121.346 ms, elapsed = 128.399 ms.
+Time accumulated: CPU = 121.346 ms, elapsed = 128.399 ms.
+Peak resident memory used = 37.7 Mbytes.
+
+
+Time for Elaboration: CPU = 28.357 ms, elapsed = 28.2061 ms.
+Time accumulated: CPU = 149.817 ms, elapsed = 156.845 ms.
+Peak resident memory used = 41.8 Mbytes.
+
+
+Time for EDB Visiting: CPU = 363 us, elapsed = 292.063 us.
+Time accumulated: CPU = 150.18 ms, elapsed = 157.366 ms.
+Peak resident memory used = 42 Mbytes.
+
+
+Circuit inventory:
+              nodes 2
+          capacitor 1     
+           resistor 1     
+            vsource 1     
+
+
+Time for parsing: CPU = 4.586 ms, elapsed = 12.9619 ms.
+Time accumulated: CPU = 154.766 ms, elapsed = 170.46 ms.
+Peak resident memory used = 42.6 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre1_24035_2, ).
+
+******************************************
+AC Analysis `ac': freq = (1 Hz -> 100 GHz)
+******************************************
+    ac: freq = 2.754 Hz       (4 %), step = 1.095 Hz        (2 %)
+    ac: freq = 4.571 Hz       (6 %), step = 1.817 Hz        (2 %)
+    ac: freq = 7.586 Hz       (8 %), step = 3.015 Hz        (2 %)
+    ac: freq = 12.59 Hz      (10 %), step = 5.003 Hz        (2 %)
+    ac: freq = 20.89 Hz      (12 %), step = 8.304 Hz        (2 %)
+    ac: freq = 34.67 Hz      (14 %), step = 13.78 Hz        (2 %)
+    ac: freq = 57.54 Hz      (16 %), step = 22.87 Hz        (2 %)
+    ac: freq = 95.5 Hz       (18 %), step = 37.96 Hz        (2 %)
+    ac: freq = 158.5 Hz      (20 %), step = 62.99 Hz        (2 %)
+    ac: freq = 263 Hz        (22 %), step = 104.5 Hz        (2 %)
+    ac: freq = 436.5 Hz      (24 %), step = 173.5 Hz        (2 %)
+    ac: freq = 724.4 Hz      (26 %), step = 287.9 Hz        (2 %)
+    ac: freq = 1.202 kHz     (28 %), step = 477.8 Hz        (2 %)
+    ac: freq = 1.995 kHz     (30 %), step = 793 Hz          (2 %)
+    ac: freq = 3.311 kHz     (32 %), step = 1.316 kHz       (2 %)
+    ac: freq = 5.495 kHz     (34 %), step = 2.184 kHz       (2 %)
+    ac: freq = 9.12 kHz      (36 %), step = 3.625 kHz       (2 %)
+    ac: freq = 15.14 kHz     (38 %), step = 6.016 kHz       (2 %)
+    ac: freq = 25.12 kHz     (40 %), step = 9.983 kHz       (2 %)
+    ac: freq = 41.69 kHz     (42 %), step = 16.57 kHz       (2 %)
+    ac: freq = 69.18 kHz     (44 %), step = 27.5 kHz        (2 %)
+    ac: freq = 114.8 kHz     (46 %), step = 45.63 kHz       (2 %)
+    ac: freq = 190.5 kHz     (48 %), step = 75.73 kHz       (2 %)
+    ac: freq = 316.2 kHz     (50 %), step = 125.7 kHz       (2 %)
+    ac: freq = 524.8 kHz     (52 %), step = 208.6 kHz       (2 %)
+    ac: freq = 871 kHz       (54 %), step = 346.2 kHz       (2 %)
+    ac: freq = 1.445 MHz     (56 %), step = 574.5 kHz       (2 %)
+    ac: freq = 2.399 MHz     (58 %), step = 953.4 kHz       (2 %)
+    ac: freq = 3.981 MHz     (60 %), step = 1.582 MHz       (2 %)
+    ac: freq = 6.607 MHz     (62 %), step = 2.626 MHz       (2 %)
+    ac: freq = 10.96 MHz     (64 %), step = 4.358 MHz       (2 %)
+    ac: freq = 18.2 MHz      (66 %), step = 7.232 MHz       (2 %)
+    ac: freq = 30.2 MHz      (68 %), step = 12 MHz          (2 %)
+    ac: freq = 50.12 MHz     (70 %), step = 19.92 MHz       (2 %)
+    ac: freq = 83.18 MHz     (72 %), step = 33.06 MHz       (2 %)
+    ac: freq = 138 MHz       (74 %), step = 54.86 MHz       (2 %)
+    ac: freq = 229.1 MHz     (76 %), step = 91.05 MHz       (2 %)
+    ac: freq = 380.2 MHz     (78 %), step = 151.1 MHz       (2 %)
+    ac: freq = 631 MHz       (80 %), step = 250.8 MHz       (2 %)
+    ac: freq = 1.047 GHz     (82 %), step = 416.2 MHz       (2 %)
+    ac: freq = 1.738 GHz     (84 %), step = 690.7 MHz       (2 %)
+    ac: freq = 2.884 GHz     (86 %), step = 1.146 GHz       (2 %)
+    ac: freq = 4.786 GHz     (88 %), step = 1.902 GHz       (2 %)
+    ac: freq = 7.943 GHz     (90 %), step = 3.157 GHz       (2 %)
+    ac: freq = 13.18 GHz     (92 %), step = 5.239 GHz       (2 %)
+    ac: freq = 21.88 GHz     (94 %), step = 8.695 GHz       (2 %)
+    ac: freq = 36.31 GHz     (96 %), step = 14.43 GHz       (2 %)
+    ac: freq = 60.26 GHz     (98 %), step = 23.95 GHz       (2 %)
+    ac: freq = 100 GHz      (100 %), step = 39.74 GHz       (2 %)
+Accumulated DC solution time = 0 s.
+Intrinsic ac analysis time =              20 ms.
+Total time required for ac analysis `ac': CPU = 14.026 ms, elapsed = 16.922 ms.
+Time accumulated: CPU = 171.346 ms, elapsed = 1.1099 s.
+Peak resident memory used = 43.5 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (9:39:16 PM, Thur Oct 5, 2017):
+Time used: CPU = 251 ms, elapsed = 1.23 ks (20m  26.0s), util. = 20.5e-03%.
+Time spent in licensing: elapsed = 59.1 ms.
+Peak memory used = 43.6 Mbytes.
+Simulation started at: 9:18:50 PM, Thur Oct 5, 2017, ended at: 9:39:16 PM, Thur Oct 5, 2017, with elapsed time (wall clock): 1.23 ks (20m  26.0s).
+spectre completes with 0 errors, 0 warnings, and 0 notices.

@@ -1,0 +1,225 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.260.isr16 64bit -- 26 Oct 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lenius   Host: corn17.stanford.edu   HostID: 43AB52D8   PID: 25626
+Memory  available: 10.3061 GB  physical: 33.7389 GB
+CPU Type: Quad-Core AMD Opteron(tm) Processor 2384
+          Processor PhysicalID CoreID Frequency
+              0         0        0     800.0
+              1         0        1     800.0
+              2         0        2     800.0
+              3         0        3     800.0
+              4         1        0     800.0
+              5         1        1     800.0
+              6         1        2     800.0
+              7         1        3     800.0
+
+
+Simulating `input.scs' on corn17.stanford.edu at 8:55:41 PM, Thur Oct 5, 2017 (process id: 25626).
+Command line:
+     \
+        /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/spectre/bin/64bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre0_24035_1 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 25626
+
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 371.777 ms, elapsed = 2.01775 s.
+Time accumulated: CPU = 371.777 ms, elapsed = 2.01775 s.
+Peak resident memory used = 37.7 Mbytes.
+
+
+Time for Elaboration: CPU = 39.683 ms, elapsed = 65.0909 ms.
+Time accumulated: CPU = 412.066 ms, elapsed = 2.08344 s.
+Peak resident memory used = 41.8 Mbytes.
+
+
+Time for EDB Visiting: CPU = 1.525 ms, elapsed = 5.97501 ms.
+Time accumulated: CPU = 413.591 ms, elapsed = 2.09068 s.
+Peak resident memory used = 42.1 Mbytes.
+
+
+Circuit inventory:
+              nodes 3
+            bsim3v3 1     
+          capacitor 1     
+           resistor 1     
+            vsource 2     
+
+
+Time for parsing: CPU = 9.79 ms, elapsed = 54.7428 ms.
+Time accumulated: CPU = 423.855 ms, elapsed = 2.1459 s.
+Peak resident memory used = 42.8 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre0_24035_1, ).
+
+******************************************
+AC Analysis `ac': freq = (10 kHz -> 1 GHz)
+******************************************
+    ac: freq = 15.85 kHz      (4 %), step = 3.26 kHz        (2 %)
+    ac: freq = 19.95 kHz      (6 %), step = 4.104 kHz       (2 %)
+    ac: freq = 25.12 kHz      (8 %), step = 5.166 kHz       (2 %)
+    ac: freq = 31.62 kHz     (10 %), step = 6.504 kHz       (2 %)
+    ac: freq = 39.81 kHz     (12 %), step = 8.188 kHz       (2 %)
+    ac: freq = 50.12 kHz     (14 %), step = 10.31 kHz       (2 %)
+    ac: freq = 63.1 kHz      (16 %), step = 12.98 kHz       (2 %)
+    ac: freq = 79.43 kHz     (18 %), step = 16.34 kHz       (2 %)
+    ac: freq = 100 kHz       (20 %), step = 20.57 kHz       (2 %)
+    ac: freq = 125.9 kHz     (22 %), step = 25.89 kHz       (2 %)
+    ac: freq = 158.5 kHz     (24 %), step = 32.6 kHz        (2 %)
+    ac: freq = 199.5 kHz     (26 %), step = 41.04 kHz       (2 %)
+    ac: freq = 251.2 kHz     (28 %), step = 51.66 kHz       (2 %)
+    ac: freq = 316.2 kHz     (30 %), step = 65.04 kHz       (2 %)
+    ac: freq = 398.1 kHz     (32 %), step = 81.88 kHz       (2 %)
+    ac: freq = 501.2 kHz     (34 %), step = 103.1 kHz       (2 %)
+    ac: freq = 631 kHz       (36 %), step = 129.8 kHz       (2 %)
+    ac: freq = 794.3 kHz     (38 %), step = 163.4 kHz       (2 %)
+    ac: freq = 1 MHz         (40 %), step = 205.7 kHz       (2 %)
+    ac: freq = 1.259 MHz     (42 %), step = 258.9 kHz       (2 %)
+    ac: freq = 1.585 MHz     (44 %), step = 326 kHz         (2 %)
+    ac: freq = 1.995 MHz     (46 %), step = 410.4 kHz       (2 %)
+    ac: freq = 2.512 MHz     (48 %), step = 516.6 kHz       (2 %)
+    ac: freq = 3.162 MHz     (50 %), step = 650.4 kHz       (2 %)
+    ac: freq = 3.981 MHz     (52 %), step = 818.8 kHz       (2 %)
+    ac: freq = 5.012 MHz     (54 %), step = 1.031 MHz       (2 %)
+    ac: freq = 6.31 MHz      (56 %), step = 1.298 MHz       (2 %)
+    ac: freq = 7.943 MHz     (58 %), step = 1.634 MHz       (2 %)
+    ac: freq = 10 MHz        (60 %), step = 2.057 MHz       (2 %)
+    ac: freq = 12.59 MHz     (62 %), step = 2.589 MHz       (2 %)
+    ac: freq = 15.85 MHz     (64 %), step = 3.26 MHz        (2 %)
+    ac: freq = 19.95 MHz     (66 %), step = 4.104 MHz       (2 %)
+    ac: freq = 25.12 MHz     (68 %), step = 5.166 MHz       (2 %)
+    ac: freq = 31.62 MHz     (70 %), step = 6.504 MHz       (2 %)
+    ac: freq = 39.81 MHz     (72 %), step = 8.188 MHz       (2 %)
+    ac: freq = 50.12 MHz     (74 %), step = 10.31 MHz       (2 %)
+    ac: freq = 63.1 MHz      (76 %), step = 12.98 MHz       (2 %)
+    ac: freq = 79.43 MHz     (78 %), step = 16.34 MHz       (2 %)
+    ac: freq = 100 MHz       (80 %), step = 20.57 MHz       (2 %)
+    ac: freq = 125.9 MHz     (82 %), step = 25.89 MHz       (2 %)
+    ac: freq = 158.5 MHz     (84 %), step = 32.6 MHz        (2 %)
+    ac: freq = 199.5 MHz     (86 %), step = 41.04 MHz       (2 %)
+    ac: freq = 251.2 MHz     (88 %), step = 51.66 MHz       (2 %)
+    ac: freq = 316.2 MHz     (90 %), step = 65.04 MHz       (2 %)
+    ac: freq = 398.1 MHz     (92 %), step = 81.88 MHz       (2 %)
+    ac: freq = 501.2 MHz     (94 %), step = 103.1 MHz       (2 %)
+    ac: freq = 631 MHz       (96 %), step = 129.8 MHz       (2 %)
+    ac: freq = 794.3 MHz     (98 %), step = 163.4 MHz       (2 %)
+    ac: freq = 1 GHz        (100 %), step = 205.7 MHz       (2 %)
+Accumulated DC solution time = 0 s.
+Intrinsic ac analysis time =              10 ms.
+Total time required for ac analysis `ac': CPU = 14.961 ms, elapsed = 22.5611 ms.
+Time accumulated: CPU = 443.497 ms, elapsed = 2.19724 s.
+Peak resident memory used = 43.9 Mbytes.
+
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+Convergence achieved in 2 iterations.
+Total time required for dc analysis `dcOp': CPU = 2.005 ms, elapsed = 4.68802 ms.
+Time accumulated: CPU = 448.411 ms, elapsed = 2.20568 s.
+Peak resident memory used = 44 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+*****************************************
+DC Analysis `dc': VIN:dc = (0 V -> 1.8 V)
+*****************************************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    dc: dc = 72 mV          (4 %), step = 36 mV           (2 %)
+    dc: dc = 108 mV         (6 %), step = 36 mV           (2 %)
+    dc: dc = 144 mV         (8 %), step = 36 mV           (2 %)
+    dc: dc = 180 mV        (10 %), step = 36 mV           (2 %)
+    dc: dc = 216 mV        (12 %), step = 36 mV           (2 %)
+    dc: dc = 252 mV        (14 %), step = 36 mV           (2 %)
+    dc: dc = 288 mV        (16 %), step = 36 mV           (2 %)
+    dc: dc = 324 mV        (18 %), step = 36 mV           (2 %)
+    dc: dc = 360 mV        (20 %), step = 36 mV           (2 %)
+    dc: dc = 396 mV        (22 %), step = 36 mV           (2 %)
+    dc: dc = 432 mV        (24 %), step = 36 mV           (2 %)
+    dc: dc = 468 mV        (26 %), step = 36 mV           (2 %)
+    dc: dc = 504 mV        (28 %), step = 36 mV           (2 %)
+    dc: dc = 540 mV        (30 %), step = 36 mV           (2 %)
+    dc: dc = 576 mV        (32 %), step = 36 mV           (2 %)
+    dc: dc = 612 mV        (34 %), step = 36 mV           (2 %)
+    dc: dc = 648 mV        (36 %), step = 36 mV           (2 %)
+    dc: dc = 684 mV        (38 %), step = 36 mV           (2 %)
+    dc: dc = 720 mV        (40 %), step = 36 mV           (2 %)
+    dc: dc = 756 mV        (42 %), step = 36 mV           (2 %)
+    dc: dc = 792 mV        (44 %), step = 36 mV           (2 %)
+    dc: dc = 828 mV        (46 %), step = 36 mV           (2 %)
+    dc: dc = 864 mV        (48 %), step = 36 mV           (2 %)
+    dc: dc = 900 mV        (50 %), step = 36 mV           (2 %)
+    dc: dc = 936 mV        (52 %), step = 36 mV           (2 %)
+    dc: dc = 972 mV        (54 %), step = 36 mV           (2 %)
+    dc: dc = 1.008 V       (56 %), step = 36 mV           (2 %)
+    dc: dc = 1.044 V       (58 %), step = 36 mV           (2 %)
+    dc: dc = 1.08 V        (60 %), step = 36 mV           (2 %)
+    dc: dc = 1.116 V       (62 %), step = 36 mV           (2 %)
+    dc: dc = 1.152 V       (64 %), step = 36 mV           (2 %)
+    dc: dc = 1.188 V       (66 %), step = 36 mV           (2 %)
+    dc: dc = 1.224 V       (68 %), step = 36 mV           (2 %)
+    dc: dc = 1.26 V        (70 %), step = 36 mV           (2 %)
+    dc: dc = 1.296 V       (72 %), step = 36 mV           (2 %)
+    dc: dc = 1.332 V       (74 %), step = 36 mV           (2 %)
+    dc: dc = 1.368 V       (76 %), step = 36 mV           (2 %)
+    dc: dc = 1.404 V       (78 %), step = 36 mV           (2 %)
+    dc: dc = 1.44 V        (80 %), step = 36 mV           (2 %)
+    dc: dc = 1.476 V       (82 %), step = 36 mV           (2 %)
+    dc: dc = 1.512 V       (84 %), step = 36 mV           (2 %)
+    dc: dc = 1.548 V       (86 %), step = 36 mV           (2 %)
+    dc: dc = 1.584 V       (88 %), step = 36 mV           (2 %)
+    dc: dc = 1.62 V        (90 %), step = 36 mV           (2 %)
+    dc: dc = 1.656 V       (92 %), step = 36 mV           (2 %)
+    dc: dc = 1.692 V       (94 %), step = 36 mV           (2 %)
+    dc: dc = 1.728 V       (96 %), step = 36 mV           (2 %)
+    dc: dc = 1.764 V       (98 %), step = 36 mV           (2 %)
+    dc: dc = 1.8 V        (100 %), step = 36 mV           (2 %)
+Total time required for dc analysis `dc': CPU = 7.961 ms, elapsed = 9.48811 ms.
+Time accumulated: CPU = 460.641 ms, elapsed = 2.227 s.
+Peak resident memory used = 44.4 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (9:00:47 PM, Thur Oct 5, 2017):
+Time used: CPU = 533 ms, elapsed = 306 s (5m  6.1s), util. = 174e-03%.
+Time spent in licensing: elapsed = 157 ms.
+Peak memory used = 44.4 Mbytes.
+Simulation started at: 8:55:41 PM, Thur Oct 5, 2017, ended at: 9:00:47 PM, Thur Oct 5, 2017, with elapsed time (wall clock): 306 s (5m  6.1s).
+spectre completes with 0 errors, 0 warnings, and 0 notices.

@@ -1,0 +1,26 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "rc_lpf"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/afs/.ir.stanford.edu/users/l/e/lenius/ee315_wrk/simulation/rc_lpf/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "example/rc_lpf/schematic" "rc_lpf" )
+ )
+( term
+ )
+( param
+ )
+( "rc_lpf" "ihnl/cds0/map" )
+ )

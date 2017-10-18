@@ -1,0 +1,7 @@
+
+// Library name: example
+// Cell name: rc_lpf
+// View name: schematic
+R0 (in out) resistor r=500K
+C0 (out 0) capacitor c=10p
+V0 (in 0) vsource dc=vdc mag=1V type=dc

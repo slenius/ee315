@@ -1,0 +1,12 @@
+CADENCE IHNL01070
+$model
+ee315_wrk/example_pss/schematic example_pss
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+Ts Ts
+Cl Cl
+N N
+$endparam

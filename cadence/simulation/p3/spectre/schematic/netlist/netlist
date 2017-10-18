@@ -1,0 +1,8 @@
+
+// Library name: hw3_p3
+// Cell name: p3
+// View name: schematic
+MN (out vdd! in 0) nmos w=10u l=0.18u
+V1 (in 0) vsource dc=vin type=dc
+V0 (vdd! 0) vsource dc=1.8 type=dc
+MP (out 0 in vdd!) pmos w=35.2u l=0.18u

@@ -1,0 +1,37 @@
+simulator( 'spectre )
+design(	 "/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/example_pss/spectre/schematic/netlist/netlist")
+resultsDir( "/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/simulation/example_pss/spectre/schematic" )
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+analysis('pss ?fund "1G"  ?harms "0"  ?errpreset "moderate"  
+		?maxacfreq "200G"  )
+desVar(	  "Ts" "1 ns"	)
+desVar(	  "N" 10	)
+desVar(	  "Cl" "1 pF"	)
+envOption(
+	'analysisOrder  list("pss") 
+)
+temp( 27 ) 
+run()
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+desVar(	  "Ts" 1n	)
+desVar(	  "Cl" 1p	)
+run()
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+analysis('pac ?maxsamples ""  ?crossingdirection "rise"  ?thresholdvalue "0.1"  
+		?sample_n "/gnd!"  ?sample_p "/clk"  ?ptvtype "sampled"  ?special "Sampled"  
+		?start "1k"  ?stop "2G"  ?lin "100"  )
+envOption(
+	'analysisOrder  list("pss" "pac") 
+)
+run()
+modelFile( 
+    '("/afs/ir.stanford.edu/class/ee315/models/ee315.mod" "")
+)
+analysis('pac ?maxsideband "0"  )
+run()

@@ -1,0 +1,11 @@
+CADENCE IHNL01070
+$model
+example/rc_lpf/schematic rc_lpf
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+V V
+vdc vdc
+$endparam
