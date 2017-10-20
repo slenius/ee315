@@ -1,18 +1,20 @@
 \o Program:		@(#)$CDS: libManager version 31.09 01/04/2011 12:51 (cat91amd) $
 \o Sub version:		sub-version  s007 
-\o Arguments:		-mpssession virtuoso3987 -mpshost rye01.stanford.edu 
-\o Working Directory:	rye01.stanford.edu:/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/opus
+\o Arguments:		-mpssession virtuoso14551 -mpshost rye02.stanford.edu 
+\o Working Directory:	rye02.stanford.edu:/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/opus
 \o 64-bit offsets
 \o Qt version: 		4.4.1
 \o Log file is "/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/opus/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(88 196 1031 721))
 \o changeWorkingDir("/afs/.ir.stanford.edu/users/l/e/lenius/ee315/cadence/opus") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\o libManager is exiting.
-\a exit(0)
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 186 1031 721))
