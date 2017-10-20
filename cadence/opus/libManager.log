@@ -18,3 +18,110 @@
 \a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
 \a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
 \a nrResizeWindow(cdsLibManager list(-3442 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ee315_wrk"
+\a cdsLibManager->libListBox->value = "ee315"
+\a cdsLibManager->libListBox->value = "ee315_wrk"
+\a cdsLibManager->libLineEdit->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = "switch_cap_ckt"
+\a cdsLibManager->cellLineEdit->value = "switch_cap_ckt"
+\a cdsLibManager->viewListBox->value = "state_a"
+\a lmgrLogShowPopup("mainListPopup2" 44 28 2 "state_a")
+\a cdsLibManager->viewLineEdit->value = "state_a"
+\a cdsLibManager->FileOpenButton->value = t
+\o MPS request: edit design
+\a nrResizeWindow(cdsLibManager list(-3442 186 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3442 1386 1031 721))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee315_wrk"
+\a cdsLibManager->libLineEdit->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = "switch_cap_ckt"
+\a cdsLibManager->cellLineEdit->value = "switch_cap_ckt"
+\a cdsLibManager->viewListBox->value = "state_a"
+\a cdsLibManager->viewLineEdit->value = "state_a"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "state_a"
+\a cdsLibManager->viewLineEdit->value = "state_a"
+\a nrResizeWindow(cdsLibManager list(78 1386 1031 721))
+\a nrResizeWindow(cdsLibManager list(78 186 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(423 145 1031 721))
+\a nrResizeWindow(cdsLibManager list(202 112 1031 721))
+\a nrResizeWindow(cdsLibManager list(-3318 112 1031 721))
+\a nrResizeWindow(cdsLibManager list(202 112 1031 721))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
