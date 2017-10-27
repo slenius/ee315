@@ -1,0 +1,10 @@
+    p1switch (s1 net014 p1! 0) relay vt1=400m vt2=800m ropen=100G \
+        rclosed=1
+    R5 (net07 0) resistor r=Ron isnoisy=yes
+    R4 (net014 s2) resistor r=Ron isnoisy=no
+    F0 (net014 s2) cccs gain=SwitchNoise probe=V0
+    V0 (net07 0) vsource type=dc
+    C1 (net014 0) capacitor c=100.0a
+    C0 (s1 0) capacitor c=100.0a
+ends p1_switch
+// End of subcircuit definition.

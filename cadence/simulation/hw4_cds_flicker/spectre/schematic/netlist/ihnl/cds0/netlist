@@ -1,0 +1,54 @@
+    F9 (vdd 0) cccs gain=-0.5 abs=on probe=E4
+    F8 (vdd 0) cccs gain=0.5 probe=E4
+    F7 (vdd 0) cccs gain=-0.5 abs=on probe=E3
+    F5 (vdd 0) cccs gain=0.5 probe=E3
+    F4 (vdd 0) cccs gain=-0.5 abs=on probe=E1
+    F3 (vdd 0) cccs gain=0.5 probe=E1
+    F2 (vdd 0) cccs gain=-0.5 abs=on probe=E2
+    F1 (vdd 0) cccs gain=0.5 probe=E2
+    F0 (vdd 0) cccs gain=-0.5 abs=on probe=E0
+    G0 (vdd 0) cccs gain=0.5 probe=E0
+    R6 (net083 net027) resistor r=50 isnoisy=no
+    R5 (net085 net029) resistor r=50 isnoisy=no
+    R4 (net060 net072) resistor r=50 isnoisy=no
+    R3 (net050 net018) resistor r=50 isnoisy=no
+    R2 (net036 net012) resistor r=50 isnoisy=no
+    R1 (net09 net013) resistor r=50 isnoisy=no
+    R0 (net7 net9) resistor r=50 isnoisy=no
+    V6 (net083 0) vsource type=pulse val0=vdd-init_v val1=init_v \
+        period=1/fs delay=(1-p1_duty)/fs-trise-2*tnov rise=tfall \
+        fall=trise width=(1-p1_duty)/fs-trise+2*tnov
+    V5 (net085 0) vsource type=pulse val0=vdd-init_v val1=init_v \
+        period=1/fs delay=(1-p1_duty)/fs-trise-tnov rise=tfall fall=trise \
+        width=(1-p1_duty)/fs-trise+tnov
+    V3 (net060 0) vsource type=pulse val0=vdd-init_v val1=init_v \
+        period=1/fs delay=(1-p1_duty)/fs-trise rise=trise fall=tfall \
+        width=(1-p1_duty)/fs-trise-tnov
+    V4 (net050 0) vsource type=pulse val0=init_v val1=vdd-init_v \
+        period=1/fs delay=(1-p1_duty)/fs- trise rise=trise fall=tfall \
+        width=(1-p1_duty)/fs-trise-2*tnov
+    V0 (net036 0) vsource type=pulse val0=init_v val1=vdd-init_v \
+        period=1/fs delay=(1-p1_duty)/fs-trise-2*tnov rise=tfall \
+        fall=trise width=(1-p1_duty)/fs-trise+2*tnov
+    Vp2 (net09 0) vsource type=pulse val0=init_v val1=vdd-init_v \
+        period=1/fs delay=(1-p1_duty)/fs- trise rise=trise fall=tfall \
+        width=(1-p1_duty)/fs-trise-tnov
+    Vp1 (net7 0) vsource type=pulse val0=init_v val1=vdd-init_v \
+        period=1/fs delay=(1-p1_duty)/fs-trise-tnov rise=tfall fall=trise \
+        width=(1-p1_duty)/fs-trise+tnov
+    C6 (net027 0) capacitor c=1p
+    C5 (net029 0) capacitor c=1p
+    C4 (net072 0) capacitor c=1p
+    C3 (net018 0) capacitor c=1p
+    C2 (net012 0) capacitor c=1p
+    C1 (net013 0) capacitor c=1p
+    C0 (net9 0) capacitor c=1p
+    E6 (p1e 0 net027 0) vcvs gain=1.0
+    E5 (p1 0 net029 0) vcvs gain=1.0
+    E4 (p2b 0 net072 0) vcvs gain=1.0
+    E3 (p2e 0 net018 0) vcvs gain=1.0
+    E2 (p1eb 0 net012 0) vcvs gain=1.0
+    E1 (p2 0 net013 0) vcvs gain=1.0
+    E0 (p1b 0 net9 0) vcvs gain=1.0
+ends clock_gen_e
+// End of subcircuit definition.

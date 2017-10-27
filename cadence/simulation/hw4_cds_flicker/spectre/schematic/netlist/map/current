@@ -1,0 +1,38 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "hw4_cds_flicker"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! p2! p1!"
+  hierDelim "."
+  netlistDir "/home/lenius/ee315/cadence/simulation/hw4_cds_flicker/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "hw4/hw4_cds_flicker/schematic" "hw4_cds_flicker" )
+( "ee315/switch_ideal/schematic" "switch_ideal" )
+( "ee315/p2_switch/schematic" "p2_switch" )
+( "ee315/flicker_src/schematic" "flicker_src" )
+( "ee315/p1_switch/schematic" "p1_switch" )
+( "ee315/clock_gen_e/schematic" "clock_gen_e" )
+( "ee315/OTA1_diff_in/schematic" "OTA1_diff_in" )
+ )
+( term
+ )
+( param
+ )
+( "switch_ideal" "ihnl/cds4/map" )
+( "p2_switch" "ihnl/cds3/map" )
+( "flicker_src" "ihnl/cds5/map" )
+( "hw4_cds_flicker" "ihnl/cds6/map" )
+( "clock_gen_e" "ihnl/cds0/map" )
+( "OTA1_diff_in" "ihnl/cds1/map" )
+( "p1_switch" "ihnl/cds2/map" )
+ )

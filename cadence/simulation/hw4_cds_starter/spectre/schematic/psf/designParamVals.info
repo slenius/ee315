@@ -1,0 +1,56 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "10.1.1.260.isr16"
+"date" "9:52:16 PM, Wed Oct 25, 2017"
+"design" "// Generated for: spectre"
+"analysis type" "info"
+"analysis name" "designParamVals"
+"analysis description" "Circuit Information"
+"xVecSorted" "unsorted"
+"tolerance.relative" 0.00100000
+TYPE
+"top-level" STRUCT(
+"temp" FLOAT DOUBLE
+"tnom" FLOAT DOUBLE
+"time" FLOAT DOUBLE
+"vdd" FLOAT DOUBLE
+"fs" FLOAT DOUBLE
+"p1_duty" FLOAT DOUBLE
+"trise" FLOAT DOUBLE
+"tnov" FLOAT DOUBLE
+"tfall" FLOAT DOUBLE
+"cf" FLOAT DOUBLE
+"cs" FLOAT DOUBLE
+"swnoise" FLOAT DOUBLE
+"M" FLOAT DOUBLE
+"t0_phase" FLOAT DOUBLE
+"cl" FLOAT DOUBLE
+"init_v" FLOAT DOUBLE
+"rons" FLOAT DOUBLE
+"ronf" FLOAT DOUBLE
+) PROP(
+"key" "parameters"
+)
+VALUE
+"top-level" "top-level" (
+2.700000000000000e+01
+2.700000000000000e+01
+0.000000000000000e+00
+1.800000000000000e+00
+1.000000000000000e+07
+5.000000000000000e-01
+1.000000000000000e-10
+2.000000000000000e-10
+1.000000000000000e-10
+1.000000000000000e-12
+2.000000000000000e-12
+1.000000000000000e+00
+1.000000000000000e+02
+2.000000000000000e+00
+2.000000000000000e-12
+1.800000000000000e+00
+2.500000000000000e+02
+4.999999999999999e+02
+)
+END

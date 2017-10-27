@@ -1,0 +1,8 @@
+    C0 (vin vip) capacitor c=abs(Gm/(2*3.14159*ft))
+    F0 (vout 0) cccs gain=1.0 probe=V0
+    G0 (vout 0 vin vip) vccs gm=Gm
+    V0 (net12 0) vsource dc=0 type=dc
+    R1 (vout 0) resistor r=abs(a0/Gm) isnoisy=no
+    R0 (net12 0) resistor r=abs(1/(alpha*Gm)) isnoisy=yes
+ends OTA1_diff_in
+// End of subcircuit definition.

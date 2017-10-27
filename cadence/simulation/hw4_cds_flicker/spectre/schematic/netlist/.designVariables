@@ -1,0 +1,3 @@
+parameters cds_en=0 flicker_on=0 vos=0 vdd=1.8 fs=10M p1_duty=0.5 \
+    trise=100p tnov=200p tfall=100p cf=1p cs=2p swnoise=1 M=100 t0_phase=1 \
+    cl=2p init_v=(t0_phase-1)*vdd rons=1/2/fs/M/cs ronf=1/2/fs/M/cf

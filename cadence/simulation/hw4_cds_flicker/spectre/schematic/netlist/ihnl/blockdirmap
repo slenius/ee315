@@ -1,0 +1,9 @@
+CADENCE IHNL01077
+
+ee315 clock_gen_e schematic cds0
+ee315 OTA1_diff_in schematic cds1
+ee315 p1_switch schematic cds2
+ee315 p2_switch schematic cds3
+ee315 switch_ideal schematic cds4
+ee315 flicker_src schematic cds5
+hw4 hw4_cds_flicker schematic cds6

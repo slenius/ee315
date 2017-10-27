@@ -1,0 +1,35 @@
+CADENCE IHNL01070
+$model
+ee315/clock_gen_e/schematic clock_gen_e
+ee315/p2_switch/schematic p2_switch
+ee315/OTA1_diff_in/schematic OTA1_diff_in
+ee315/p1_switch/schematic p1_switch
+hw4/hw4_cds_flicker/schematic hw4_cds_flicker
+ee315/flicker_src/schematic flicker_src
+ee315/switch_ideal/schematic switch_ideal
+$endmodel
+$net
+gnd! 0
+p1! p1!
+p2! p2!
+$endnet
+$param
+tnov tnov
+cf cf
+vdd vdd
+t0_phase t0_phase
+swnoise swnoise
+ronf ronf
+M M
+init_v init_v
+p1_duty p1_duty
+flicker_on flicker_on
+tfall tfall
+trise trise
+cds_en cds_en
+cl cl
+cs cs
+fs fs
+vos vos
+rons rons
+$endparam

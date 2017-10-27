@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 25 11:51:01 2017
+// Design library name: hw4
+// Design cell name: hw4_cds_starter
+// Design view name: schematic
+simulator lang=spectre
+global 0 p2! p1!

@@ -1,0 +1,27 @@
+
+// Library name: hw4
+// Cell name: hw4_cds_flicker
+// View name: schematic
+I31 (p1! net020 net018 net026 p2! net016 net017 net08) clock_gen_e
+C3 (vo 0) capacitor c=cl
+Cs (vx vs) capacitor c=cs
+Cf (vx vy) capacitor c=cf
+E2 (qx net019 vx vs) vcvs gain=cs
+E0 (net019 0 vx vy) vcvs gain=cf
+I1 (vx net014 net015) OTA1_diff_in Gm=1m ft=1e15 a0=1e9 alpha=3
+I40 (net028 vs) p1_switch Ron=rons SwitchNoise=swnoise
+I20 (vy net031) p1_switch Ron=ronf SwitchNoise=swnoise
+I18 (vx net014) p1_switch Ron=ronf SwitchNoise=swnoise
+V4 (cds_en_b 0) vsource dc=vdd*(1-cds_en) type=dc
+V3 (cds_en 0) vsource dc=vdd*cds_en type=dc
+V2 (net011 0) vsource dc=vos pacmag=1 type=dc
+V1 (vi 0) vsource dc=2m type=dc
+V0 (net08 0) vsource dc=vdd type=dc
+I28 (net014 vo) p2_switch Ron=ronf SwitchNoise=swnoise
+I11 (vi vs) p2_switch Ron=rons SwitchNoise=swnoise
+I19 (vy net014) p2_switch Ron=ronf SwitchNoise=swnoise
+I53 (cds_en_b net028 vx) switch_ideal Ron=1m
+I51 (cds_en 0 net028) switch_ideal Ron=1m
+I49 (cds_en net031 0) switch_ideal Ron=1m
+I48 (cds_en_b vx net031) switch_ideal Ron=1m
+I46 (net011 net015 0) flicker_src
