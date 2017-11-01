@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"C0n" "ee315_cap_spectre"
+"F0n" "ee315_cccs_spectre"
+"G0n" "ee315_vccs_spectre"
+"V0n" "ee315_vdc_spectre"
+"R1n R0n" "ee315_res_spectre"
+"vinv" ":1v"
+"voutv" ":2v"
+"vipv" ":3v"

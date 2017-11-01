@@ -1,0 +1,6 @@
+
+// Library name: ee315
+// Cell name: p2_switch
+// View name: schematic
+subckt p2_switch s1 s2
+parameters Ron=1 SwitchNoise=1

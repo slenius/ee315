@@ -1,0 +1,183 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.260.isr16 64bit -- 26 Oct 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lenius   Host: sam-vbox   HostID: 7F0101   PID: 13622
+Memory  available: 1.0905 GB  physical: 8.3688 GB
+CPU Type: Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     3073.6
+              1         0        1     3073.6
+              2         0        2     3073.6
+              3         0        3     3073.6
+
+
+Simulating `input.scs' on sam-vbox at 9:52:15 PM, Wed Oct 25, 2017 (process id: 13622).
+Command line:
+     \
+        /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/spectre/bin/64bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre3_31106_12 -format sst2 -raw ../psf  \
+        +lqtimeout 900 -maxw 5 -maxn 5
+spectre pid = 13622
+
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 76 ms, elapsed = 302.517 ms.
+Time accumulated: CPU = 76 ms, elapsed = 302.517 ms.
+Peak resident memory used = 57.5 Mbytes.
+
+
+Time for Elaboration: CPU = 24 ms, elapsed = 33.6928 ms.
+Time accumulated: CPU = 104 ms, elapsed = 336.592 ms.
+Peak resident memory used = 62.2 Mbytes.
+
+
+Notice from spectre in `p1_switch':`I10', during hierarchy flattening.
+    I10.C0: Terminals are connected together (to node `0').
+
+
+Time for EDB Visiting: CPU = 0 s, elapsed = 1.12891 ms.
+Time accumulated: CPU = 104 ms, elapsed = 338.165 ms.
+Peak resident memory used = 62.6 Mbytes.
+
+
+Notice from spectre during topology check.
+    No connections to node `gnd!'.
+    Only one connection to the following 6 nodes:
+        net020
+        net018
+        net026
+        net016
+        net017
+        Further occurrences of this notice will be suppressed.
+    No DC path from node `gnd!' to ground, Gmin installed to provide path.
+
+
+Circuit inventory:
+              nodes 44
+          capacitor 23    
+               cccs 17    
+              relay 6     
+           resistor 21    
+               vccs 1     
+               vcvs 9     
+            vsource 16    
+
+
+Notice from spectre.
+    1 notice suppressed.
+
+
+Time for parsing: CPU = 4 ms, elapsed = 16.664 ms.
+Time accumulated: CPU = 108 ms, elapsed = 355.076 ms.
+Peak resident memory used = 62.6 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre3_31106_12, ).
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+Convergence achieved in 2 iterations.
+Total time required for dc analysis `dcOp': CPU = 0 s, elapsed = 1.53017 ms.
+Time accumulated: CPU = 112 ms, elapsed = 387.919 ms.
+Peak resident memory used = 62.6 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+***********************************************
+Noise Analysis `noise': freq = (1 kHz -> 1 THz)
+***********************************************
+
+Notice from spectre during Noise analysis `noise'.
+    Operating points will not be recomputed: the circuit and conditions were not changed since previous analysis.
+
+    noise: freq = 2.291 kHz      (4 %), step = 777.3 Hz        (2 %)
+    noise: freq = 3.467 kHz      (6 %), step = 1.177 kHz       (2 %)
+    noise: freq = 5.248 kHz      (8 %), step = 1.781 kHz       (2 %)
+    noise: freq = 7.943 kHz     (10 %), step = 2.695 kHz       (2 %)
+    noise: freq = 12.02 kHz     (12 %), step = 4.079 kHz       (2 %)
+    noise: freq = 18.2 kHz      (14 %), step = 6.174 kHz       (2 %)
+    noise: freq = 27.54 kHz     (16 %), step = 9.345 kHz       (2 %)
+    noise: freq = 41.69 kHz     (18 %), step = 14.14 kHz       (2 %)
+    noise: freq = 63.1 kHz      (20 %), step = 21.41 kHz       (2 %)
+    noise: freq = 95.5 kHz      (22 %), step = 32.4 kHz        (2 %)
+    noise: freq = 144.5 kHz     (24 %), step = 49.04 kHz       (2 %)
+    noise: freq = 218.8 kHz     (26 %), step = 74.23 kHz       (2 %)
+    noise: freq = 331.1 kHz     (28 %), step = 112.4 kHz       (2 %)
+    noise: freq = 501.2 kHz     (30 %), step = 170.1 kHz       (2 %)
+    noise: freq = 758.6 kHz     (32 %), step = 257.4 kHz       (2 %)
+    noise: freq = 1.148 MHz     (34 %), step = 389.6 kHz       (2 %)
+    noise: freq = 1.738 MHz     (36 %), step = 589.6 kHz       (2 %)
+    noise: freq = 2.63 MHz      (38 %), step = 892.5 kHz       (2 %)
+    noise: freq = 3.981 MHz     (40 %), step = 1.351 MHz       (2 %)
+    noise: freq = 6.026 MHz     (42 %), step = 2.045 MHz       (2 %)
+    noise: freq = 9.12 MHz      (44 %), step = 3.095 MHz       (2 %)
+    noise: freq = 13.8 MHz      (46 %), step = 4.684 MHz       (2 %)
+    noise: freq = 20.89 MHz     (48 %), step = 7.089 MHz       (2 %)
+    noise: freq = 31.62 MHz     (50 %), step = 10.73 MHz       (2 %)
+    noise: freq = 47.86 MHz     (52 %), step = 16.24 MHz       (2 %)
+    noise: freq = 72.44 MHz     (54 %), step = 24.58 MHz       (2 %)
+    noise: freq = 109.6 MHz     (56 %), step = 37.2 MHz        (2 %)
+    noise: freq = 166 MHz       (58 %), step = 56.31 MHz       (2 %)
+    noise: freq = 251.2 MHz     (60 %), step = 85.23 MHz       (2 %)
+    noise: freq = 380.2 MHz     (62 %), step = 129 MHz         (2 %)
+    noise: freq = 575.4 MHz     (64 %), step = 195.3 MHz       (2 %)
+    noise: freq = 871 MHz       (66 %), step = 295.5 MHz       (2 %)
+    noise: freq = 1.318 GHz     (68 %), step = 447.3 MHz       (2 %)
+    noise: freq = 1.995 GHz     (70 %), step = 677 MHz         (2 %)
+    noise: freq = 3.02 GHz      (72 %), step = 1.025 GHz       (2 %)
+    noise: freq = 4.571 GHz     (74 %), step = 1.551 GHz       (2 %)
+    noise: freq = 6.918 GHz     (76 %), step = 2.347 GHz       (2 %)
+    noise: freq = 10.47 GHz     (78 %), step = 3.553 GHz       (2 %)
+    noise: freq = 15.85 GHz     (80 %), step = 5.378 GHz       (2 %)
+    noise: freq = 23.99 GHz     (82 %), step = 8.139 GHz       (2 %)
+    noise: freq = 36.31 GHz     (84 %), step = 12.32 GHz       (2 %)
+    noise: freq = 54.95 GHz     (86 %), step = 18.65 GHz       (2 %)
+    noise: freq = 83.18 GHz     (88 %), step = 28.22 GHz       (2 %)
+    noise: freq = 125.9 GHz     (90 %), step = 42.72 GHz       (2 %)
+    noise: freq = 190.5 GHz     (92 %), step = 64.65 GHz       (2 %)
+    noise: freq = 288.4 GHz     (94 %), step = 97.86 GHz       (2 %)
+    noise: freq = 436.5 GHz     (96 %), step = 148.1 GHz       (2 %)
+    noise: freq = 660.7 GHz     (98 %), step = 224.2 GHz       (2 %)
+    noise: freq = 1 THz        (100 %), step = 339.3 GHz       (2 %)
+Accumulated DC solution time = 0 s.
+Intrinsic noise analysis time =              10 ms.
+Total time required for noise analysis `noise': CPU = 8 ms, elapsed = 20.01 ms.
+Time accumulated: CPU = 124 ms, elapsed = 413.997 ms.
+Peak resident memory used = 64 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (9:53:13 PM, Wed Oct 25, 2017):
+Time used: CPU = 144 ms, elapsed = 57.2 s, util. = 252e-03%.
+Time spent in licensing: elapsed = 255 ms.
+Peak memory used = 64 Mbytes.
+Simulation started at: 9:52:15 PM, Wed Oct 25, 2017, ended at: 9:53:13 PM, Wed Oct 25, 2017, with elapsed time (wall clock): 57.2 s.
+spectre completes with 0 errors, 0 warnings, and 6 notices.

@@ -1,0 +1,6 @@
+
+// Library name: ee315
+// Cell name: OTA1_diff_in
+// View name: schematic
+subckt OTA1_diff_in vin vout vip
+parameters Gm ft a0 alpha

@@ -1,0 +1,25 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Oct 25 21:52:13 2017"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"ronf" "variable" ( 500.0 ) PROP( )
+"rons" "variable" ( 250.0 ) PROP( )
+"init_v" "variable" ( 1.8 ) PROP( )
+"cl" "variable" ( 2e-12 ) PROP( )
+"t0_phase" "variable" ( 2 ) PROP( )
+"M" "variable" ( 100 ) PROP( )
+"swnoise" "variable" ( 1 ) PROP( )
+"cs" "variable" ( 2e-12 ) PROP( )
+"cf" "variable" ( 1e-12 ) PROP( )
+"tfall" "variable" ( 100e-12 ) PROP( )
+"tnov" "variable" ( 200e-12 ) PROP( )
+"trise" "variable" ( 100e-12 ) PROP( )
+"p1_duty" "variable" ( 500e-3 ) PROP( )
+"fs" "variable" ( 10e6 ) PROP( )
+"vdd" "variable" ( 1.8 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

@@ -1,0 +1,131 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Wed Oct 25 12:19:27 2017"
+"simulator" "spectre"
+"version" "10.1.1.260.isr16"
+"date" "12:19:27 PM, Wed Oct 25, 2017"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"pss-td.pss" "analysisInst" (
+"td.pss"
+"pss.td.pss"
+"PSF"
+""
+("time")
+"Periodic Steady-State Analysis `pss': time = (0 s -> 100 ns)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"pss-fd.pss" "analysisInst" (
+"fd.pss"
+"pss.fd.pss"
+"PSF"
+""
+("freq")
+"Periodic Steady-State Analysis `pss': fund = 10 MHz"
+) PROP(
+"data_type" "swept_scalar"
+"harmonic_type" "fundamental"
+)
+
+"pnoise-timedomain.pnoise" "analysisInst" (
+"timedomain.pnoise"
+"pnoise.timedomain.pnoise"
+"PSF"
+""
+("timeindex")
+"pnoise time slices parent"
+) PROP(
+"data_type" "swept_struct"
+)
+
+"pnoise-0.timedomain.pnoise" "analysisInst" (
+"timedomain.pnoise"
+"pnoise.0.timedomain.pnoise"
+"PSF"
+"pnoise-timedomain.pnoise"
+("freq")
+"Periodic Noise Analysis `pnoise': freq = (1 Hz -> 5 MHz)"
+) PROP(
+"data_type" "swept_struct"
+"data_type" "swept_struct"
+"sweep_tree_type" "leafNode"
+"timeindex" 8.00000e-11
+)
+
+"modelParameter-info" "analysisInst" (
+"info"
+"modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"element-info" "analysisInst" (
+"info"
+"element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"outputParameter-info" "analysisInst" (
+"info"
+"outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"designParamVals-info" "analysisInst" (
+"info"
+"designParamVals.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"primitives-info.primitives" "analysisInst" (
+"info.primitives"
+"primitives.info.primitives"
+"PSF"
+""
+()
+"Circuit Information"
+)
+"subckts-info.subckts" "analysisInst" (
+"info.subckts"
+"subckts.info.subckts"
+"PSF"
+""
+()
+"Circuit Information"
+)
+END

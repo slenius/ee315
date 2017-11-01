@@ -1,0 +1,6 @@
+"ee315.switch_ideal.schematic.termorder" (("clk" "s1" "s2") ("clk" "s1" "s2"))
+"ee315.OTA1_diff_in.schematic.termorder" (("vin" "vout" "vip") ("vin" "vip" "vout"))
+"ee315.clock_gen_e.schematic.termorder" nil
+"ee315.p2_switch.schematic.termorder" (("s1" "s2") ("s1" "s2"))
+"ee315.flicker_src.schematic.termorder" (("pin1" "pin2" "[@bulk_n:%:gnd!]") ("pin1" "pin2" "[@bulk_n:%:gnd!]"))
+"ee315.p1_switch.schematic.termorder" (("s1" "s2") ("s1" "s2"))

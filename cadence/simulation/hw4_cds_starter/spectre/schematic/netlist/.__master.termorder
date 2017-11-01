@@ -1,0 +1,4 @@
+"ee315.OTA1_diff_in.schematic.termorder" (("vin" "vout" "vip") ("vin" "vip" "vout"))
+"ee315.clock_gen_e.schematic.termorder" nil
+"ee315.p2_switch.schematic.termorder" (("s1" "s2") ("s1" "s2"))
+"ee315.p1_switch.schematic.termorder" (("s1" "s2") ("s1" "s2"))

@@ -1,0 +1,5 @@
+
+// Library name: ee315
+// Cell name: flicker_src
+// View name: schematic
+subckt flicker_src pin1 pin2 inh_bulk_n

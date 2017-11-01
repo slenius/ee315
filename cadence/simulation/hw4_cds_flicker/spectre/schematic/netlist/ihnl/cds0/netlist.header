@@ -1,0 +1,5 @@
+
+// Library name: ee315
+// Cell name: clock_gen_e
+// View name: schematic
+subckt clock_gen_e p1 p1b p1e p1eb p2 p2b p2e vdd

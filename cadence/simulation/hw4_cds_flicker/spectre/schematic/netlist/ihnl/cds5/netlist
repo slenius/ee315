@@ -1,0 +1,5 @@
+    E0 (pin2 pin1 r 0) vcvs gain=0.5*flicker_on
+    M0 (r r 0 inh_bulk_n) nmos w=10u l=0.18u
+    I4 (0 r) isource dc=1m type=dc
+ends flicker_src
+// End of subcircuit definition.

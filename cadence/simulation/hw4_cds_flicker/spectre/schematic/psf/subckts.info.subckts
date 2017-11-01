@@ -1,0 +1,44 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "10.1.1.260.isr16"
+"date" "12:19:27 PM, Wed Oct 25, 2017"
+"design" "// Generated for: spectre"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unsorted"
+"tolerance.relative" 0.00100000
+TYPE
+"subckt" STRUCT(
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"switch_ideal" "subckt" (
+"Ron"
+"clk s1 s2 0"
+)
+"flicker_src" "subckt" (
+""
+"pin1 pin2 inh_bulk_n 0"
+)
+"clock_gen_e" "subckt" (
+""
+"p1 p1b p1e p1eb p2 p2b p2e vdd 0"
+)
+"p2_switch" "subckt" (
+"Ron SwitchNoise"
+"s1 s2 p2! 0"
+)
+"p1_switch" "subckt" (
+"Ron SwitchNoise"
+"s1 s2 p1! 0"
+)
+"OTA1_diff_in" "subckt" (
+"a0 Gm ft alpha"
+"vin vout vip 0"
+)
+END
