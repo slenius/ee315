@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Oct 31 22:18:33 2017
+// Design library name: ee315_wrk
+// Design cell name: comparator_tb
+// Design view name: schematic
+simulator lang=spectre
+global 0

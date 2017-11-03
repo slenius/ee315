@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"V2n V3n V0n" "ee315_vdc_spectre"
+"I4n I7n" "ideal_balun"
+"V5n" "ee315_vpwl_spectre"
+"I3n" "comparator"

@@ -1,170 +1,32 @@
 \o Program:		@(#)$CDS: libManager version 31.09 01/04/2011 12:51 (cat91amd) $
 \o Sub version:		sub-version  s007 
-\o Arguments:		-mpssession virtuoso31106 -mpshost sam-vbox 
+\o Arguments:		-mpssession virtuoso3659 -mpshost sam-vbox 
 \o Working Directory:	sam-vbox:/home/lenius/ee315/cadence/opus
 \o 64-bit offsets
+\o changeWorkingDir("/home/lenius/ee315/cadence/opus") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
 \o Qt version: 		4.4.1
 \o Log file is "/home/lenius/ee315/cadence/opus/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\o changeWorkingDir("/home/lenius/ee315/cadence/opus") unnecessary.
-\o ddSetForcedLib("") unnecessary.
-\o MPS service: map window
 \o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(1103 203 737 690))
+\o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "hw4"
-\a cdsLibManager->cellListBox->value = "hw4_cds_starter"
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_starter"
-\a cdsLibManager->libLineEdit->value = "hw4"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a lmgrLogShowPopup("mainListPopup2" 27 30 2 "spectre_state1")
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup1" 45 11 2 "hw4_cds_starter")
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "hw4_cds_starter"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "hw4_cds_starter"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(2216 244 343 196))
-\a basicRenameForm->basicRenameToEdit->value = "hw5_cds_starter"
-\a basicRenameForm->OK->value = t
-\o Renaming Cell "hw4_cds_starter" to "hw5_cds_starter" in library "hw4".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2238 264 298 134))
-\a workingDialogForm->Close->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "hw4"
-\a cdsLibManager->libLineEdit->value = "hw4"
-\a cdsLibManager->cellListBox->value = "hw5_cds_starter"
-\a cdsLibManager->cellLineEdit->value = "hw5_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "hw5_cds_starter"
-\a cdsLibManager->cellLineEdit->value = "hw5_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "hw5_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellLineEdit->value = "hw5_cds_starter"
-\a lmgrLogShowPopup("mainListPopup2" 63 28 2 "spectre_state1")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
+\a nrResizeWindow(cdsLibManager list(2934 89 737 690))
 \a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = "ee315"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrResizeWindow(cdsLibManager list(5859 70 737 690))
-\a nrResizeWindow(cdsLibManager list(5859 -1130 737 690))
 \a cdsLibManager->libLineEdit->value = "ee315"
-\a nrResizeWindow(cdsLibManager list(5859 70 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "ee315"
-\a cdsLibManager->libLineEdit->value = "ee315"
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "hw4"
-\a cdsLibManager->cellListBox->value = "hw5_cds_starter"
-\a cdsLibManager->cellLineEdit->value = "hw5_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->libLineEdit->value = "hw4"
-\a lmgrLogShowPopup("mainListPopup2" 116 25 2 "spectre_state1")
-\a cdsLibManager->editPropertiesButton->value = t
-\o MPS request: edit property
-\a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainListPopup2" 39 34 2 "spectre_state1")
-\a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainListPopup2" 67 35 2 "spectre_state1")
-\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup0" 30 101 2 "hw4")
-\a cdsLibManager->cellListBox->value = "hw5_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup1" 57 12 2 "hw5_cds_starter")
-\a cdsLibManager->cellLineEdit->value = "hw5_cds_starter"
-\a cdsLibManager->editDeleteButton->value = t
-\a deleteForm->deleteBothRadioButton->value = t
-\a deleteForm->deleteFilterEdit->value = "*"
-\a deleteForm->notDeleteFilterEdit->value = "*"
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2074 167 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(2185 241 405 361))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "hw5_cds_starter" from library "hw4".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cell 'hw4/hw5_cds_starter'.
-\o Deletion of 1 cell done.
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "hw4"
-\a cdsLibManager->libLineEdit->value = "hw4"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(2238 264 298 134))
-\a cdsLibManager->libListBox->value = "ee315"
-\a cdsLibManager->libLineEdit->value = "ee315"
-\a cdsLibManager->cellListBox->value = "hw4_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup1" 73 119 2 "hw4_cds_starter")
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_starter"
+\a lmgrLogShowPopup("mainListPopup1" 45 216 2 "comparator_tb")
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
 \a cdsLibManager->copySimpleButton->value = t
 \a basicCopyForm->CategoryCellsEdit->value = "*"
 \a basicCopyForm->CellsSkipLibraries->value = t
@@ -175,196 +37,145 @@
 \a basicCopyForm->CopyFromLibrary->value = "basic"
 \a basicCopyForm->CopyToLibrary->value = "basic"
 \a basicCopyForm->CopyFromLibrary->value = "ee315"
-\a basicCopyForm->CopyFromCell->value = "hw4_cds_starter"
+\a basicCopyForm->CopyFromCell->value = "comparator_tb"
 \a basicCopyForm->CopyToLibrary->value = "ee315"
-\a basicCopyForm->CopyToCell->value = "hw4_cds_starter"
-\a basicCopyForm->CellsViewsToCopy->value = "schematic spectre_state1"
+\a basicCopyForm->CopyToCell->value = "comparator_tb"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a basicCopyForm->ViewsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a nrSetWindowVisibility(basicCopyForm "show")
 \a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(55 14 444 715))
-\a nrResizeWindow(cdsLibManager list(5859 70 737 690))
-\a nrResizeWindow(basicCopyForm list(3895 14 444 715))
-\a nrResizeWindow(cdsLibManager list(5859 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(3895 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(55 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(5859 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(3895 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(55 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrResizeWindow(basicCopyForm list(55 14 444 715))
-\a nrSetCurrentWindow(basicCopyForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "hw4_cds_starter"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_starter"
-\a lmgrLogShowPopup("mainListPopup2" 57 26 2 "spectre_state1")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(55 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(5859 -1130 737 690))
-\a nrResizeWindow(basicCopyForm list(3895 -1186 444 715))
-\a nrResizeWindow(cdsLibManager list(5859 70 737 690))
-\a nrResizeWindow(basicCopyForm list(3895 14 444 715))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
-\a nrResizeWindow(basicCopyForm list(55 14 444 715))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "hw4_cds_flicker"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup1" 60 102 2 "hw4_cds_flicker")
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_flicker"
-\a cdsLibManager->copySimpleButton->value = t
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CellsViewsToCopy->value = ""
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
-\a basicCopyForm->CopyFromCell->value = ""
-\a basicCopyForm->CopyToCell->value = ""
-\a basicCopyForm->CopyFromLibrary->value = ""
-\a basicCopyForm->CopyToLibrary->value = ""
-\a basicCopyForm->CopyFromLibrary->value = "basic"
-\a basicCopyForm->CopyToLibrary->value = "basic"
-\a basicCopyForm->CopyFromLibrary->value = "ee315"
-\a basicCopyForm->CopyFromCell->value = "hw4_cds_flicker"
-\a basicCopyForm->CopyToLibrary->value = "ee315"
-\a basicCopyForm->CopyToCell->value = "hw4_cds_flicker"
-\a basicCopyForm->CellsViewsToCopy->value = "noise pnoise schematic"
-\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
-\a basicCopyForm->CellsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
-\a basicCopyForm->ViewsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
-\a nrSetCurrentWindow(basicCopyForm)
-\a basicCopyForm->CopyToLibrary->value = "hw4"
-\a basicCopyForm->UpdateInstances->value = t
+\a nrResizeWindow(basicCopyForm list(55 14 444 652))
+\a basicCopyForm->CopyToLibrary->value = "ee315_wrk"
 \a basicCopyForm->OK->value = t
-\o Beginning simple copy to library "hw4".
+\o Beginning simple copy to library "ee315_wrk".
 \o Processing files to be copied...
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2238 264 304 134))
 \o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file doesn't exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.
 \a nrSetWindowVisibility(copyProblemsDialog "show")
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(3168 322 288 131))
 \a nrSetCurrentWindow(copyProblemsDialog)
-\a nrResizeWindow(copyProblemsDialog list(55 114 837 441))
+\a nrResizeWindow(copyProblemsDialog list(55 93 825 441))
 \a copyProblemsDialog->OK->value = t
 \a nrSetCurrentWindow(basicCopyForm)
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(2235 264 304 134))
+\a nrResizeWindow(workingDialogForm list(3158 284 288 131))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "ee315"
 \a cdsLibManager->libLineEdit->value = "ee315"
-\a cdsLibManager->cellListBox->value = "hw4_cds_flicker"
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_flicker"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "hw3_p3"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->viewListBox 0 0)
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "p3"
-\a cdsLibManager->cellLineEdit->value = "p3"
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee315"
+\a cdsLibManager->libLineEdit->value = "ee315"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libListBox->value = "hw4"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "ee315_wrk"
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "hw4_cds_flicker"
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_flicker"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->libLineEdit->value = "hw4"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup1" 47 7 2 "hw4_cds_flicker")
-\a cdsLibManager->viewListBox->value = "noise"
-\a lmgrLogShowPopup("mainListPopup2" 30 16 2 "noise")
-\a cdsLibManager->viewLineEdit->value = "noise"
-\a cdsLibManager->FileOpenButton->value = t
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libLineEdit->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = "example_pss"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->viewListBox 0 0)
+\a cdsLibManager->viewListBox->value = "schematic"
 \o MPS request: edit design
-\a nrResizeWindow(cdsLibManager list(2019 -1130 737 690))
-\a nrResizeWindow(cdsLibManager list(2019 70 737 690))
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainListPopup2" 21 11 2 "noise")
-\a cdsLibManager->editUpdateThumbnails->value = t
-\o No thumbnails were generated
-\a lmgrLogShowPopup("mainListPopup2" 15 5 2 "noise")
-\a cdsLibManager->editPropertiesButton->value = t
-\o MPS request: edit property
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListView->value = nil
-\a cdsLibManager->viewTreeView->value = t
-\a cdsLibManager->libTree->value = "hw4"
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker"
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/noise"
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker" t)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/noise" t)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/pnoise" t)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/pnoise" nil)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/noise/ADE_state.info"
-\a lmgrLogShowPopup("mainTreePopup5" 165 158 2 "ADE_state.info")
-\a lmgrLogShowPopup("mainTreePopup5" 165 158 2 "ADE_state.info")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee315_wrk"
+\a cdsLibManager->libLineEdit->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a lmgrLogShowPopup("mainTreePopup5" 140 157 2 "ADE_state.info")
-\a lmgrLogShowPopup("mainTreePopup5" 140 157 2 "ADE_state.info")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/noise/analyses.state"
-\a lmgrLogShowPopup("mainTreePopup5" 129 172 2 "analyses.state")
-\a lmgrLogShowPopup("mainTreePopup5" 129 172 2 "analyses.state")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1322 131 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/noise"
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/noise" t)
-\a nrListItemAction(cdsLibManager->libTree "hw4/hw4_cds_flicker/noise" 0)
-\o MPS request: edit design
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/noise" nil)
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker"
-\a lmgrLogShowPopup("mainTreePopup1" 82 119 2 "hw4_cds_flicker")
-\a lmgrLogShowPopup("mainTreePopup1" 82 119 2 "hw4_cds_flicker")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(2064 157 627 425))
-\a deleteForm->Cancel->value = t
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libTree->value = "hw4"
-\a nrListItemExpand(cdsLibManager->libTree "ee315_wrk" t)
-\a nrListItemExpand(cdsLibManager->libTree "ee315_wrk" nil)
-\a nrListItemExpand(cdsLibManager->libTree "ee315_wrk" t)
-\a nrListItemExpand(cdsLibManager->libTree "ee315_wrk" nil)
-\a nrListItemExpand(cdsLibManager->libTree "ee315" t)
-\a cdsLibManager->libTree->value = "ee315/hw4_cds_starter"
-\a lmgrLogShowPopup("mainTreePopup1" 128 156 2 "hw4_cds_starter")
-\a lmgrLogShowPopup("mainTreePopup1" 128 156 2 "hw4_cds_starter")
+\a cdsLibManager->libListBox->value = "ee315"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->cellLineEdit->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libLineEdit->value = "ee315"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a lmgrLogShowPopup("mainListPopup1" 53 202 2 "comparator")
+\a cdsLibManager->cellLineEdit->value = "comparator"
 \a cdsLibManager->copySimpleButton->value = t
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
 \a basicCopyForm->CellsViewsToCopy->value = ""
@@ -376,151 +187,87 @@
 \a basicCopyForm->CopyFromLibrary->value = "basic"
 \a basicCopyForm->CopyToLibrary->value = "basic"
 \a basicCopyForm->CopyFromLibrary->value = "ee315"
-\a basicCopyForm->CopyFromCell->value = "hw4_cds_starter"
+\a basicCopyForm->CopyFromCell->value = "comparator"
 \a basicCopyForm->CopyToLibrary->value = "ee315"
-\a basicCopyForm->CopyToCell->value = "hw4_cds_starter"
-\a basicCopyForm->CellsViewsToCopy->value = "schematic spectre_state1"
+\a basicCopyForm->CopyToCell->value = "comparator"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic symbol"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a basicCopyForm->ViewsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a nrSetWindowVisibility(basicCopyForm "show")
 \a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(55 14 444 715))
-\a basicCopyForm->CopyToLibrary->value = "hw4"
+\a nrResizeWindow(basicCopyForm list(55 14 444 652))
+\a basicCopyForm->CopyToLibrary->value = "ee315_wrk"
 \a basicCopyForm->OK->value = t
-\o Beginning simple copy to library "hw4".
+\o Beginning simple copy to library "ee315_wrk".
 \o Processing files to be copied...
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(workingDialogForm)
 \a nrSetWindowVisibility(copyProblemsDialog "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(copyProblemsDialog)
-\a nrResizeWindow(workingDialogForm list(1339 379 304 134))
-\a nrResizeWindow(copyProblemsDialog list(55 114 837 441))
+\a nrResizeWindow(workingDialogForm list(3167 256 288 131))
+\a nrResizeWindow(copyProblemsDialog list(55 93 825 441))
 \a copyProblemsDialog->OK->value = t
 \a nrSetCurrentWindow(basicCopyForm)
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(1329 407 304 134))
+\a nrResizeWindow(workingDialogForm list(3158 284 288 131))
 \a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libTree->value = nil
-\a cdsLibManager->libListBox->value = "hw4"
-\a cdsLibManager->libLineEdit->value = "hw4"
-\a cdsLibManager->cellListBox->value = "hw4_cds_flicker"
-\a cdsLibManager->cellLineEdit->value = "hw4_cds_flicker"
-\a cdsLibManager->viewListBox->value = "noise"
-\a cdsLibManager->viewLineEdit->value = "noise"
-\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "ee315"
+\a cdsLibManager->libLineEdit->value = "ee315"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "noise"
-\a cdsLibManager->viewLineEdit->value = "noise"
-\a cdsLibManager->libTree->value = "ee315"
-\a cdsLibManager->libTree->value = "ee315/hw4_cds_starter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "basic cdsDefTechLib ee315_wrk hw3_p3 hw4"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker" t)
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker" nil)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_starter"
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_starter" t)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_starter/spectre_state1"
-\a lmgrLogShowPopup("mainTreePopup2" 108 332 2 "spectre_state1")
-\a lmgrLogShowPopup("mainTreePopup2" 108 332 2 "spectre_state1")
-\a cdsLibManager->FileOpenButton->value = t
+\a cdsLibManager->libListBox->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = "ee315_wrk"
+\a cdsLibManager->cellListBox->value = "comparator_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "comparator"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "comparator"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->viewListBox 0 0)
+\a cdsLibManager->viewListBox->value = "schematic"
 \o MPS request: edit design
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_starter" nil)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker" t)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/pnoise"
-\a nrListItemAction(cdsLibManager->libTree "hw4/hw4_cds_flicker/pnoise" 0)
-\o MPS request: edit design
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker/pnoise" t)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrResizeWindow(cdsLibManager list(4953 213 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -882 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_flicker/pnoise/ADE_state.info"
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_flicker" nil)
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_starter" t)
-\a cdsLibManager->libTree->value = "hw4/hw4_cds_starter/spectre_state1"
-\a nrListItemAction(cdsLibManager->libTree "hw4/hw4_cds_starter/spectre_state1" 0)
-\o MPS request: edit design
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_starter/spectre_state1" t)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrListItemAction(cdsLibManager->libTree "hw4/hw4_cds_starter/spectre_state1" 0)
-\o MPS request: edit design
-\a nrListItemExpand(cdsLibManager->libTree "hw4/hw4_cds_starter/spectre_state1" nil)
-\a nrResizeWindow(cdsLibManager list(1113 -987 737 690))
-\a nrResizeWindow(cdsLibManager list(1113 213 737 690))
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \o libManager is exiting.
 \a exit(0)
-\a basicRenameForm->basicRenameFromEdit->value = "foo"

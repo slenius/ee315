@@ -1,0 +1,11 @@
+
+// Library name: ee315_wrk
+// Cell name: comparator_tb
+// View name: schematic
+V2 (vic 0) vsource dc=vic type=dc
+V3 (vid 0) vsource dc=vid mag=0 type=dc
+V0 (vdd 0) vsource dc=vdd type=dc
+I4 (vid vic vip vim) ideal_balun
+I7 (vod net012 vop vom) ideal_balun
+V5 (str 0) vsource type=pwl wave=[ 5n 0 5.2n vdd ]
+I3 (str vdd vim vip vom vop 0 0) comparator

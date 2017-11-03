@@ -1,0 +1,289 @@
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 10.1.1.260.isr16 64bit -- 26 Oct 2011
+Copyright (C) 1989-2010 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence, Virtuoso and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Protected by U.S. Patents: 
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: lenius   Host: sam-vbox   HostID: 7F0101   PID: 5496
+Memory  available: 1.2611 GB  physical: 4.1410 GB
+CPU Type: Intel(R) Core(TM) i7 CPU         950  @ 3.07GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     3073.6
+              1         0        1     3073.6
+              2         0        2     3073.6
+              3         0        3     3073.6
+
+
+Simulating `input.scs' on sam-vbox at 11:55:38 PM, Tue Oct 31, 2017 (process id: 5496).
+Command line:
+     \
+        /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/spectre/bin/64bit/spectre  \
+        input.scs +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre0_3659_7 -format sst2 -raw ../psf +lqtimeout  \
+        900 -maxw 5 -maxn 5
+spectre pid = 5496
+
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /afs/ir.stanford.edu/class/ee/cadence/MMSIM10/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+
+Time for NDB Parsing: CPU = 76 ms, elapsed = 233.437 ms.
+Time accumulated: CPU = 76 ms, elapsed = 233.437 ms.
+Peak resident memory used = 57.5 Mbytes.
+
+
+Time for Elaboration: CPU = 24 ms, elapsed = 22.572 ms.
+Time accumulated: CPU = 100 ms, elapsed = 256.351 ms.
+Peak resident memory used = 62.1 Mbytes.
+
+
+Time for EDB Visiting: CPU = 0 s, elapsed = 481.129 us.
+Time accumulated: CPU = 100 ms, elapsed = 257.144 ms.
+Peak resident memory used = 62.1 Mbytes.
+
+
+Circuit inventory:
+              nodes 11
+            bsim3v3 6     
+            isource 1     
+        transformer 4     
+            vsource 4     
+
+
+Time for parsing: CPU = 4 ms, elapsed = 19.906 ms.
+Time accumulated: CPU = 104 ms, elapsed = 277.469 ms.
+Peak resident memory used = 62.9 Mbytes.
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0, spectre0_3659_7, ).
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 15 ns)
+************************************************
+Trying `homotopy = gmin' for initial conditions.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 15 ns
+    step = 15 ps
+    maxstep = 150 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 375 ps       (2.5 %), step = 150 ps          (1 %)
+    tran: time = 1.125 ns     (7.5 %), step = 150 ps          (1 %)
+    tran: time = 1.875 ns    (12.5 %), step = 150 ps          (1 %)
+    tran: time = 2.625 ns    (17.5 %), step = 150 ps          (1 %)
+    tran: time = 3.375 ns    (22.5 %), step = 150 ps          (1 %)
+    tran: time = 4.125 ns    (27.5 %), step = 150 ps          (1 %)
+    tran: time = 4.875 ns    (32.5 %), step = 150 ps          (1 %)
+    tran: time = 5.638 ns    (37.6 %), step = 15.39 ps     (103 m%)
+    tran: time = 6.377 ns    (42.5 %), step = 16.19 ps     (108 m%)
+    tran: time = 7.147 ns    (47.6 %), step = 101.5 ps     (677 m%)
+    tran: time = 7.893 ns    (52.6 %), step = 150 ps          (1 %)
+    tran: time = 8.643 ns    (57.6 %), step = 150 ps          (1 %)
+    tran: time = 9.393 ns    (62.6 %), step = 150 ps          (1 %)
+    tran: time = 10.14 ns    (67.6 %), step = 150 ps          (1 %)
+    tran: time = 10.89 ns    (72.6 %), step = 150 ps          (1 %)
+    tran: time = 11.64 ns    (77.6 %), step = 150 ps          (1 %)
+    tran: time = 12.39 ns    (82.6 %), step = 150 ps          (1 %)
+    tran: time = 13.14 ns    (87.6 %), step = 150 ps          (1 %)
+    tran: time = 13.89 ns    (92.6 %), step = 150 ps          (1 %)
+    tran: time = 14.64 ns    (97.6 %), step = 150 ps          (1 %)
+Number of accepted tran steps =             244
+Initial condition solution time: CPU = 4 ms, elapsed = 3.03197 ms.
+Intrinsic tran analysis time:    CPU = 24 ms, elapsed = 32.4931 ms.
+Total time required for tran analysis `tran': CPU = 32 ms, elapsed = 57.986 ms.
+Time accumulated: CPU = 136 ms, elapsed = 367.468 ms.
+Peak resident memory used = 67.6 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+Trying `homotopy = gmin'.
+Convergence achieved in 38 iterations.
+Total time required for dc analysis `dcOp': CPU = 4 ms, elapsed = 19.1002 ms.
+Time accumulated: CPU = 144 ms, elapsed = 399.34 ms.
+Peak resident memory used = 68 Mbytes.
+
+capInfo_dc: writing capacitance table to rawfile.
+
+*******************************
+Capacitance Table `capInfo_dc':
+*******************************
+Capacitance values computed in DC analysis `dcOp' at T = 27 C.
+
+net012 : net012 fixed=0           , variable=0           , sum=0           .
+
+str : str       fixed=1.28796 f   , variable=970.322 a   , sum=2.25828 f   .
+
+vdd : vdd       fixed=3.92933 f   , variable=13.7783 f   , sum=17.7076 f   .
+
+vic : vic       fixed=0           , variable=0           , sum=0           .
+
+vid : vid       fixed=0           , variable=0           , sum=0           .
+
+vim : vim       fixed=2.93633 f   , variable=1.40736 f   , sum=4.34369 f   .
+
+vip : vip       fixed=2.93633 f   , variable=2.81774 f   , sum=5.75406 f   .
+
+vod : vod       fixed=0           , variable=0           , sum=0           .
+
+vom : vom       fixed=8.00536 f   , variable=11.0393 f   , sum=19.0446 f   .
+
+vop : vop       fixed=8.00536 f   , variable=10.6193 f   , sum=18.6246 f   .
+
+I3.net9 : I3.net9       fixed=2.93618 f   , variable=9.88241 f   , sum=12.8186 f   .
+
+dcOpInfo: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 15 ns)
+************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 15 ns
+    step = 15 ps
+    maxstep = 150 ps
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+
+    tran: time = 394.3 ps    (2.63 %), step = 60.53 ps     (404 m%)
+    tran: time = 1.178 ns    (7.85 %), step = 150 ps          (1 %)
+    tran: time = 1.928 ns    (12.9 %), step = 150 ps          (1 %)
+    tran: time = 2.678 ns    (17.9 %), step = 150 ps          (1 %)
+    tran: time = 3.428 ns    (22.9 %), step = 150 ps          (1 %)
+    tran: time = 4.178 ns    (27.9 %), step = 150 ps          (1 %)
+    tran: time = 4.928 ns    (32.9 %), step = 150 ps          (1 %)
+    tran: time = 5.661 ns    (37.7 %), step = 36.39 ps     (243 m%)
+    tran: time = 6.381 ns    (42.5 %), step = 8.591 ps    (57.3 m%)
+    tran: time = 7.135 ns    (47.6 %), step = 14.01 ps    (93.4 m%)
+    tran: time = 7.968 ns    (53.1 %), step = 114.2 ps     (762 m%)
+    tran: time = 8.709 ns    (58.1 %), step = 150 ps          (1 %)
+    tran: time = 9.397 ns    (62.6 %), step = 22.51 ps     (150 m%)
+    tran: time = 10.19 ns      (68 %), step = 129.2 ps     (861 m%)
+    tran: time = 10.94 ns      (73 %), step = 150 ps          (1 %)
+    tran: time = 11.69 ns      (78 %), step = 150 ps          (1 %)
+    tran: time = 12.44 ns      (83 %), step = 150 ps          (1 %)
+    tran: time = 13.19 ns      (88 %), step = 150 ps          (1 %)
+    tran: time = 13.94 ns      (93 %), step = 150 ps          (1 %)
+    tran: time = 14.69 ns      (98 %), step = 150 ps          (1 %)
+Number of accepted tran steps =             343
+Initial condition solution time: CPU = 0 s, elapsed = 461.102 us.
+Intrinsic tran analysis time:    CPU = 32 ms, elapsed = 31.4698 ms.
+Total time required for tran analysis `tran': CPU = 32 ms, elapsed = 49.597 ms.
+Time accumulated: CPU = 196 ms, elapsed = 32.4579 s.
+Peak resident memory used = 68.2 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+******************
+DC Analysis `dcOp'
+******************
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+Convergence achieved in 9 iterations.
+Total time required for dc analysis `dcOp': CPU = 0 s, elapsed = 823.975 us.
+Time accumulated: CPU = 196 ms, elapsed = 32.4781 s.
+Peak resident memory used = 68.2 Mbytes.
+
+capInfo_dc: writing capacitance table to rawfile.
+
+*******************************
+Capacitance Table `capInfo_dc':
+*******************************
+Capacitance values computed in DC analysis `dcOp' at T = 27 C.
+
+net012 : net012 fixed=0           , variable=0           , sum=0           .
+
+str : str       fixed=1.28796 f   , variable=973.911 a   , sum=2.26187 f   .
+
+vdd : vdd       fixed=3.92933 f   , variable=13.8112 f   , sum=17.7405 f   .
+
+vic : vic       fixed=0           , variable=0           , sum=0           .
+
+vid : vid       fixed=0           , variable=0           , sum=0           .
+
+vim : vim       fixed=2.93633 f   , variable=2.48245 f   , sum=5.41877 f   .
+
+vip : vip       fixed=2.93633 f   , variable=2.48246 f   , sum=5.41879 f   .
+
+vod : vod       fixed=0           , variable=0           , sum=0           .
+
+vom : vom       fixed=8.00536 f   , variable=11.1237 f   , sum=19.1291 f   .
+
+vop : vop       fixed=8.00536 f   , variable=10.711 f    , sum=18.7163 f   .
+
+I3.net9 : I3.net9       fixed=2.93618 f   , variable=10.8813 f   , sum=13.8175 f   .
+
+dcOpInfo: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+Aggregate audit (12:54:45 AM, Wed Nov 1, 2017):
+Time used: CPU = 360 ms, elapsed = 3.55 ks (59m  7.0s), util. = 10.1e-03%.
+Time spent in licensing: elapsed = 191 ms.
+Peak memory used = 68.2 Mbytes.
+Simulation started at: 11:55:38 PM, Tue Oct 31, 2017, ended at: 12:54:45 AM, Wed Nov 1, 2017, with elapsed time (wall clock): 3.55 ks (59m  7.0s).
+spectre completes with 0 errors, 0 warnings, and 0 notices.

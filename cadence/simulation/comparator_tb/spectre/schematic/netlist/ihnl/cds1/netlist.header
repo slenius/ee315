@@ -1,0 +1,5 @@
+
+// Library name: ee315
+// Cell name: comparator
+// View name: schematic
+subckt comparator str vdd vim vip vom vop vss inh_bulk_n

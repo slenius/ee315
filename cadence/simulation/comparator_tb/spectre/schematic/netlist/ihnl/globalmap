@@ -1,0 +1,14 @@
+CADENCE IHNL01070
+$model
+ee315_wrk/comparator_tb/schematic comparator_tb
+ee315/comparator/schematic comparator
+ee315/ideal_balun/schematic ideal_balun
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+vic vic
+vid vid
+$endparam

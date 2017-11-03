@@ -1,0 +1,13 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "ee315_idc_spectre"
+"M0n M1n" "ee315_nmos_spectre"
+"M2n M3n M4n M5n" "ee315_pmos4_spectre"
+"strv" ":1v"
+"vddv" ":2v"
+"vimv" ":3v"
+"vipv" ":4v"
+"vomv" ":5v"
+"vopv" ":6v"
+"vssv" ":7v"
+"[@bulk_n:%:gnd!]v" ":8v"

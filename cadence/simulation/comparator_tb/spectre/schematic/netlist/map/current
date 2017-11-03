@@ -1,0 +1,30 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "comparator_tb"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/lenius/ee315/cadence/simulation/comparator_tb/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+( "gnd!" "0" )
+ )
+( inst
+ )
+( model
+( "ee315/comparator/schematic" "comparator" )
+( "ee315/ideal_balun/schematic" "ideal_balun" )
+( "ee315_wrk/comparator_tb/schematic" "comparator_tb" )
+ )
+( term
+ )
+( param
+ )
+( "comparator_tb" "ihnl/cds2/map" )
+( "comparator" "ihnl/cds1/map" )
+( "ideal_balun" "ihnl/cds0/map" )
+ )

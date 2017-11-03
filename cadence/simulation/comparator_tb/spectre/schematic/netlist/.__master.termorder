@@ -1,0 +1,2 @@
+"ee315.comparator.schematic.termorder" (("str" "vdd" "vim" "vip" "vom" "vop" "vss" "[@bulk_n:%:gnd!]") ("str" "vdd" "vim" "vip" "vom" "vop" "vss" "[@bulk_n:%:gnd!]"))
+"ee315.ideal_balun.schematic.termorder" (("d" "c" "p" "n") ("c" "d" "n" "p"))
